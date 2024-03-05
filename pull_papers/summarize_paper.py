@@ -12,7 +12,7 @@ def process_chunk(chunk_text, specific_instruction):
     headers = {'Content-Type': 'application/json'}
 
     data = {"user":"chia",
-            "model":"gpt35", 
+            "model":"gpt4", 
             "system": "You are a scientific expert and are very good at summarizing current research and knowledge.",
             "prompt":["Summarize the following scientific text." + specific_instruction + chunk_text],
             "stop":[],
