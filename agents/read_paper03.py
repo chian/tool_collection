@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import pdb
+
 import argparse
 import os, json
 import numpy as np
@@ -19,17 +19,13 @@ import subprocess
 
 import uuid, re, ast
 from rich import print
-from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from typing import Optional
-from langchain_core.pydantic_v1 import BaseModel, Field, validator
+from langchain_core.pydantic_v1 import BaseModel
 from langchain.chains import create_extraction_chain_pydantic
 
-from typing import List
-from langchain.output_parsers import PydanticOutputParser
-from langchain.schema import OutputParserException
-
-DEBUG = 1
-NUM_LLM_THREADS = 6
+DEBUG = True
+NUM_LLM_THREADS = 5
 
 # FUNCTION DEFINITIONS
 def call_with_timeout(func, *args, **kwargs):
@@ -95,117 +91,96 @@ def split_file_into_chunks(file_path):
     #print(chunks)
     return chunks
 
-class Paragraph(BaseModel):
-    paragraph: str = Field(description="a paragraph of text from a scientific paper")
-
-class Paragraphs(BaseModel):
-    paragraphs: List[Paragraph]
-
 def split_chunk_into_paragraphs(chunk,llm):
-    LOCAL_DEBUG = False
-    if LOCAL_DEBUG:
+    if DEBUG:
         print("Incoming chunk:",chunk)
-
-    template_string = """
-    You are an expert and parsing which words belong to a sentence and which sentence belong
-    together in a paragraph. You will split up words and sentences sensibly to make coherent
-    paragraphs that discuss a single idea or subject.  Ignore partial paragraphs at the start
-    and end of the chunk.
-
-    Please sanatize the output for JSON by getting rid of any URLs, fixing typos,
-    and removing or adding spaces and puncutation as necessary.
     
-    Use the formatting instructions below to provide the answers to user queries.
+    PROMPT = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """
+                You are an expert and parsing which words belong to a sentence and which sentence belong together
+                in a paragraph. You will split up words and sentences sensibly to make coherent paragraphs that
+                discuss a single idea or subject.
+                Only respond with a JSON formatted list of paragraphs.
+                """,
+            ),
+            (
+                "user",
+                """
+                Break the following chunk of texts into whole paragraphs.
+                Ignore partial paragraphs at the start and end of the chunk.
+                Reformat text, returns, and other spacing to make paragraph correspond to a single string.
+                Return those paragraph strings as a JSON formatted list of strings.
+                
+                {chunk}
+                """,
+            ),
+        ]
+    )
+
+    runnable = PROMPT | llm
     
-    FORMATTING_INSTRUCTIONS:
-    {format_instructions}
+    answer = robust_api_call(runnable.invoke, {"chunk": chunk})
     
-    Here is the chunk of text to process:
-    {chunk}
-    """
-        
-    pydantic_parser = PydanticOutputParser(pydantic_object=Paragraphs)
-    format_instructions = pydantic_parser.get_format_instructions()
-    #print(format_instructions)
-
-    prompt = ChatPromptTemplate.from_template(template=template_string)
-    messages = prompt.format_messages(chunk=chunk, format_instructions=format_instructions)
-    #print(messages)
-    
-
-    max_attempts = 3
-    attempt = 0
-    parsed_output = None
-
-    while attempt < max_attempts and parsed_output is None:
-        try:
-            output = robust_api_call(llm.invoke, messages)
-
-            if LOCAL_DEBUG:
-                print ("OUTCONTENT",output)
-
-            parsed_output = pydantic_parser.parse(output)
-
-            if LOCAL_DEBUG:
-                print("TYPE",type(parsed_output))
-                print("PARAGRAPHS\n",parsed_output.paragraphs)
-                print("-"*80)
-                print("PARAGRAPHS")
-                for paragraph in parsed_output.paragraphs:
-                    text = paragraph.paragraph
-                    print(text)
-                    print("-"*50)
-                    print("Paragraph splitter says:",parsed_output)
-            #print(parsed_output)
-            #pdb.set_trace()
-        except OutputParserException as e:
-            print(f"Error parsing output: {e}")
-            attempt += 1
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
-            attempt += 1
-
-    if parsed_output is None:
-        print(f"Failed to parse output after {max_attempts} attempts.")
-        return []
-
-    return parsed_output.paragraphs
+    if DEBUG:
+        print("Paragraph splitter says:",answer)
+    return answer
 
 def process_chunk(chunk,llm):
-    #print("processing chunk...", chunk)
-    paragraph_json = split_chunk_into_paragraphs(chunk, llm)
-    #print("Print paragraph json",paragraph_json)
-    return paragraph_json
+    attempt = 1
+    max_attempts = 3
+    while attempt <= max_attempts:
+        try:
+            paragraph_json = split_chunk_into_paragraphs(chunk, llm)
+            print(paragraph_json)
+            try:
+                paragraph = json.loads(paragraph_json.strip())
+                print(paragraph['paragraphs'])
+                return paragraph['paragraphs']
+            except:
+                try:
+                    paragraph = ast.literal_eval(paragraph_json)
+                    return paragraph
+                except:
+                    if attempt == max_attempts:
+                        print("Give up - tried", max_attempts, "times")
+                        print("Error in split_file_into_paragraphs:",paragraph_json)
+                        return []
+                    else:
+                        attempt += 1
+        except:
+            attempt += 1
+                
+    return []
                     
 def split_file_into_paragraphs(file_path, llm):
     if DEBUG:
         print("Splitting file into chunks...")
     chunks = split_file_into_chunks(file_path)
+    #print(chunks)
     paragraphs = []
+    max_attempts = 3
+
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=NUM_LLM_THREADS) as executor:
         futures = [executor.submit(process_chunk, chunk, llm) for chunk in chunks]
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
-            #print("1. result = ", result)
             if result:
-                for paragraph in result:
-                    paragraphs.append(paragraph.paragraph)
-                #print("2. result = ",result)
-    #print("split file:",paragraphs)
+                paragraphs.extend(result)
+
     return paragraphs
 
 def classify_sentence(sentences, index, topic_list, agents, topic_ider, llm):
     sentence = sentences[index]
-    DEBUG = True
-    if DEBUG:
-        print(sentence)
     #before_context = " ".join(sentences[max(0, index - 3):index])
     #after_context = " ".join(sentences[index + 1:index + 4])
     #context = f"Before: {before_context}\nAfter: {after_context}"
     task1 = Task(
         description=f"Classify the following text into one of the given topics:\n\nText: {sentence}\n\nTopics: {', '.join([topic for _, topic in topic_list])}",
-        expected_output="The most appropriate topic for the given chunk of text",
+        expected_output="The most appropriate topic for the given sentence",
         agents=agents,
     )
     task2 = Task(
@@ -257,74 +232,11 @@ def classify_sentence(sentences, index, topic_list, agents, topic_ider, llm):
         print(f"Failed to obtain a valid topic ID for sentence: {sentence}")
         return None
 
-    if DEBUG:
-        print(topic_id,index,sentence)
-
     return {
         "topic_id": topic_id,
         "index": index,
         "sentence": sentence,
     }
-
-def miss_deep(llm):
-    agent = Agent(
-        role="Critical Analyst of Research Findings",
-        goal=textwrap.dedent("""
-        Evaluate the depth, validity, and implications of research findings, and identify more
-        pertinent questions or alternative interpretations.
-        """),
-        backstory=textwrap.dedent("""
-        Miss Deep is renowned for her ability to delve into the complex world of academic research,
-        scrutinizing the methodology, data, and conclusions of papers across various fields. With a
-        keen eye for detail and a questioning mind, she goes beyond the surface to explore what
-        results truly signify, challenging assumptions and proposing new angles for investigation.
-        Her expertise lies not just in understanding the data presented but in discerning the
-        broader context and potential biases, making her an invaluable asset in the pursuit of
-        knowledge.
-        """),
-        llm=llm
-    ) 
-    return agent
-
-def joker(llm):
-    agent = Agent(
-        role = "Master of Clichéd Erudition",
-        goal = textwrap.dedent("""
-        Restate and reinterpret statements with a blend of cliché and scholarly eloquence, elevating
-        common discourse through the art of sophisticated verbosity.
-        """),
-        backstory = textwrap.dedent("""
-        Joker, not confined to mere humor, has mastered the art of dressing words in the finest of
-        academic robes, even when the occasion hardly calls for it. With a library's worth of phrases
-        at his disposal, he delights in taking the mundane and spinning it into a tapestry of elaborate
-        diction and well-trodden sayings. His expertise is not just in the volume of his vocabulary but
-        in the skill with which he weaves it into conversation, ensuring that even the simplest of
-        statements are transformed into a grandiose exposition.
-        """),
-        llm=llm,
-    )
-    return agent
-
-def wendy(llm):
-    agent = Agent(
-        role = "Supreme Database Organizer",
-        goal = textwrap.dedent("""
-        Excel in the meticulous organization of information, categorization of diverse entities, and the
-        strategic structuring of databases to enhance accessibility and efficiency.
-        """),
-        backstory = textwrap.dedent("""
-        With an innate passion for order and structure, this super administrative assistant has honed
-        their skills in the art of organization to perfection. They possess an uncanny ability to sift
-        through chaos, identify underlying patterns, and systematically arrange data into intuitive
-        categories. Their expertise extends beyond mere filing; they understand the nuances of data
-        interrelationships and excel at crafting databases that are not only organized but are also
-        optimized for user engagement and query efficiency. Their meticulous attention to detail
-        ensures that no piece of information is ever out of place, making them an indispensable asset
-        in any data-driven environment.
-        """),
-        llm = llm,
-    )
-    return agent
 
 def agent_the_paper(sentences,llm):
     topic_list = [
@@ -336,7 +248,7 @@ def agent_the_paper(sentences,llm):
         ("t0006", "Publication Information such as Title, Authors, and Affiliation"),
         ("t0007", "Other")
     ]
-    """
+
     agents = [
         Agent(
             role=f"Advocate for {topic}",
@@ -346,8 +258,6 @@ def agent_the_paper(sentences,llm):
         )
         for _, topic in topic_list
     ]
-    """
-    agents = [miss_deep(llm), joker(llm), wendy(llm)]
     topic_ider = Agent(
         role=f"Topic ID Reporter",
         goal=f"Return a JSON formatted string with only the topic_id field. Your final answer should be only a JSON-formatted string with a topic ID.",
@@ -363,7 +273,6 @@ def agent_the_paper(sentences,llm):
         }
 
     global_usage_metrics = {}
-    print("About to work on these:",sentences)
         
     with concurrent.futures.ThreadPoolExecutor(max_workers=NUM_LLM_THREADS) as executor:
         # Submit the classification tasks to the executor
@@ -379,8 +288,7 @@ def agent_the_paper(sentences,llm):
                     "sentence": result["sentence"],
                 })
                 
-    if DEBUG:
-        print(classified_sentences)
+    print(classified_sentences)
     return classified_sentences
 
 class AgenticChunker:
@@ -531,33 +439,6 @@ class AgenticChunker:
         return updated_chunk_title
 
     def _get_new_chunk_summary(self, proposition):
-        specific_instructions_original = """
-        Your summaries should anticipate generalization. If you get a proposition about apples, generalize it to food.
-        Or month, generalize it to "date and times".
-        
-        Example:
-        Input: Proposition: Greg likes to eat pizza
-        Output: This chunk contains information about the types of food Greg likes to eat.
-        """
-        specific_instructions = """
-        Your summaries should focus on the uses of large language models (LLMs) in cancer research and take a fine-grained
-        approach to categorizing use cases. For everythign that does not fit into that category, you should generalize
-        very broadly. You must mention in the category summary whether LLMs are used or not used in a paper.
-        
-        Example:
-        Input: Proposition: LLMs can be used to diagnosis instestinal bowel disease.
-        Output: This chunk contains information about using LLMs in disease that are not cancer.
-
-        Input: Proposition: LLMs can be used to embed the electronic health record and make predictions about outcomes
-        in patients with breast cancer. First models were embedded using ClinBERT and the those embeddings were passed
-        to a linear regression model to predict survival under or over 5 years.
-        Output: This chunk contains information about the use of LLMs as embedding models for the electronic health
-        record and predicting patient outcomes in breast cancer. The specific models used where ClinBERT and a linear
-        regression.
-
-        Input: Proposition: AI vision model can be used to predict extent of disease in breast cancer patients.
-        Output: This chunk does not contain information about the use of LLMs in cancer.
-        """
         PROMPT = ChatPromptTemplate.from_messages(
             [
                 (
@@ -570,8 +451,13 @@ class AgenticChunker:
 
                     You will be given a proposition which will go into a new chunk. This new chunk needs a summary.
 
-                    {specific_instructions}
-                    
+                    Your summaries should anticipate generalization. If you get a proposition about apples, generalize it to food.
+                    Or month, generalize it to "date and times".
+
+                    Example:
+                    Input: Proposition: Greg likes to eat pizza
+                    Output: This chunk contains information about the types of food Greg likes to eat.
+
                     Only respond with the new chunk summary, nothing else.
                     """,
                 ),
@@ -582,8 +468,7 @@ class AgenticChunker:
         runnable = PROMPT | self.llm
 
         new_chunk_summary = robust_api_call(runnable.invoke, {
-            "proposition": proposition,
-            "specific_instructions" : specific_instructions
+            "proposition": proposition
         })
         self.llm_call_count += 1
         """
@@ -863,11 +748,12 @@ def merge_sentences(document_content):
 
 # MAIN CODE BLOCK
 def main():
+
     parser = argparse.ArgumentParser(description='...',
                                      epilog='Example usage: python_debug ...',
                                      formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--specific_instruction', type=str, nargs='?', default="", help='Add on prompt for more specific instructions')
-    parser.add_argument('--directory', type=str, nargs='?', default="", help='directory containing files to be processed')
+    parser.add_argument('--filepath', type=str, nargs='?', default="", help='file to be run')
     args = parser.parse_args()
 
     user_query = args.specific_instruction
@@ -877,62 +763,68 @@ def main():
     argo_wrapper_instance = ArgoWrapper()
     llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt4', temperature = 0.5)
 
+    paragraphs = split_file_into_paragraphs(args.filepath, llm)
+    #sentences = split_file_into_sentences(args.filepath,argo_embedding)
+    #print(sentences)
+    #print("Paragraphs:", paragraphs)
+    classified_sentences = agent_the_paper(paragraphs,llm)
+    sorted_sentences = merge_sentences(classified_sentences)
+    print("Classified Texts:", sorted_sentences)
+
+    PROMPT = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """
+                You are a eloquent discusser of topics. You have a PhD in science and conveny information in
+                expert and educated verbiage that is precise and efficient. You are not prone to unnecessary
+                flourishes of language as those are for the weak-minded. Truth is the balance between precision
+                and conciseness.
+                """,
+            ),
+            ("user",
+             """You will take the below chunk and summarize it without losing any key information. You will
+             highlight hypotheses discussed, assumptions made, points raised, experiments performed, results obtained,
+             and anything else relevant to understanding the chunk of text in its entirety.
+             --Start of current chunk-- {chunk}  --End of current chunk--
+             """,
+             ),
+        ]
+    )
+
+    for topic_id, topic_info in sorted_sentences.items():
+        topic = topic_info['topic']
+        text = topic_info['text']
+        if len(text) > 10:
+            runnable = PROMPT | llm
+            section_summary = robust_api_call(runnable.invoke, {
+                "chunk": text,
+            })
+            sorted_sentences[topic_id]['summary'] = section_summary
+
+    print("Summaries added:", sorted_sentences)
+
+    paper_summary = ""
+    for topic_id, topic_info in sorted_sentences.items():
+        if 'summary' in topic_info:
+            section_summary = topic_info['summary']
+            paper_summary += section_summary + "\n"
+
+    print("Paper Summary:", paper_summary)
+    runnable = PROMPT | llm
+    section_summary = robust_api_call(runnable.invoke, {
+        "chunk": paper_summary,
+    })
+    print("Paper Summary (after llm):", paper_summary)
+        
     ac = AgenticChunker(llm)
-
-    for filename in os.listdir(args.directory):
-        filepath = os.path.join(args.directory, filename)
-        if os.path.isfile(filepath):
-            paragraphs = split_file_into_paragraphs(filepath, llm)
-            print("Main: paragraphs = ",paragraphs)
-            classified_sentences = agent_the_paper(paragraphs,llm)
-            sorted_sentences = merge_sentences(classified_sentences)
-            print(f"Classified Texts for {filename}:", sorted_sentences)
-
-            PROMPT = ChatPromptTemplate.from_messages(
-                [
-                    (
-                        "system",
-                        """
-                        You are a eloquent discusser of topics. You have a PhD in science and conveny information in
-                        expert and educated verbiage that is precise and efficient. You are not prone to unnecessary
-                        flourishes of language as those are for the weak-minded. Truth is the balance between precision
-                        and conciseness.
-                        """,
-                    ),
-                    ("user",
-                     """You will take the below chunk and summarize it without losing any key information. You will
-                     highlight hypotheses discussed, assumptions made, points raised, experiments performed, results obtained,
-                     and anything else relevant to understanding the chunk of text in its entirety.
-                     --Start of current chunk-- {chunk}  --End of current chunk--
-                     """,
-                     ),
-                ]
-            )
-
-            for topic_id, topic_info in sorted_sentences.items():
-                topic = topic_info['topic']
-                text = topic_info['text']
-                if len(text) > 10:
-                    runnable = PROMPT | llm
-                    section_summary = robust_api_call(runnable.invoke, {
-                        "chunk": text,
-                    })
-                    sorted_sentences[topic_id]['summary'] = section_summary
-
-            print(f"Summaries added for {filename}:", sorted_sentences)
-
-            paper_summary = ""
-            for topic_id, topic_info in sorted_sentences.items():
-                if 'summary' in topic_info:
-                    section_summary = topic_info['summary']
-                    paper_summary += section_summary + "\n"
-
-            print(f"Paper Summary for {filename}:", paper_summary)
-            ac.add_propositions([paper_summary])
-
+    ac.add_propositions([paper_summary])
     ac.pretty_print_chunks()
     ac.pretty_print_chunk_outline()
+    #print (ac.get_chunks(get_type='list_of_strings'))
+    #print(ac.llm_call_count)
 
+    
     exit(0)
 
 if __name__ == '__main__':
