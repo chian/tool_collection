@@ -28,21 +28,49 @@ from typing import List
 from langchain.output_parsers import PydanticOutputParser
 from langchain.schema import OutputParserException
 
+from langchain_community.llms import LlamaCpp
+from llama_cpp.llama_grammar import LlamaGrammar
+from functools import wraps
+
 DEBUG = 1
-NUM_LLM_THREADS = 6
+ID_LIMIT = 5
+NUM_LLM_THREADS = 4
 
 # FUNCTION DEFINITIONS
 def call_with_timeout(func, *args, **kwargs):
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         future = executor.submit(func, *args, **kwargs)
         try:
-            return future.result(timeout=30)  # 10 seconds timeout
+            return future.result(timeout=10)  # 10 seconds timeout
         except concurrent.futures.TimeoutError:
             print("The API call timed out.")
-            return None
+            raise Exception("API call timed out.")
+
+def retry_on_error(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        while True:
+            try:
+                result = func(*args, **kwargs)
+                if result is None:
+                    print("No result returned. Retrying the API call in 1 hour...")
+                    time.sleep(3600)  # Sleep for 1 hour before retrying
+                else:
+                    return result
+            except Exception as e:
+                if "status code: 500" in str(e):
+                    print("Received status code 500. Retrying the API call in 1 hour...")
+                    time.sleep(3600)  # Sleep for 1 hour before retrying
+                elif "API call timed out." in str(e):
+                    print("API call timed out. Retrying the API call in 1 hour...")
+                    time.sleep(3600)  # Sleep for 1 hour before retrying
+                else:
+                    raise e
+    return wrapper
 
 # Retry mechanism with exponential backoff
-@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_attempt_number=5)
+#@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_attempt_number=5)
+@retry_on_error
 def robust_api_call(func, *args, **kwargs):
     while True:
         try:
@@ -197,7 +225,7 @@ def split_file_into_paragraphs(file_path, llm):
 
 def classify_sentence(sentences, index, topic_list, agents, topic_ider, llm):
     sentence = sentences[index]
-    DEBUG = True
+    #DEBUG = True
     if DEBUG:
         print(sentence)
     #before_context = " ".join(sentences[max(0, index - 3):index])
@@ -266,6 +294,7 @@ def classify_sentence(sentences, index, topic_list, agents, topic_ider, llm):
         "sentence": sentence,
     }
 
+#AGENTS
 def miss_deep(llm):
     agent = Agent(
         role="Critical Analyst of Research Findings",
@@ -326,17 +355,7 @@ def wendy(llm):
     )
     return agent
 
-def agent_the_paper(sentences,llm):
-    topic_list = [
-        ("t0001", "Background Information and Previous State of the Art"),
-        ("t0002", "Detailed Problem Statement or Barrier Overcome"),
-        ("t0003", "Methodology"),
-        ("t0004", "Experiments or Tests Performed and Results"),
-        ("t0005", "References"),
-        ("t0006", "Publication Information such as Title, Authors, and Affiliation"),
-        ("t0007", "Other")
-    ]
-    """
+def generic(llm,topic_list):
     agents = [
         Agent(
             role=f"Advocate for {topic}",
@@ -346,7 +365,23 @@ def agent_the_paper(sentences,llm):
         )
         for _, topic in topic_list
     ]
-    """
+    return agents
+
+#TOPICS
+def the_paper():
+    topic_list = [
+        ("t0001", "Background Information and Previous State of the Art"),
+        ("t0002", "Detailed Problem Statement or Barrier Overcome"),
+        ("t0003", "Methodology"),
+        ("t0004", "Experiments or Tests Performed and Results"),
+        ("t0005", "References"),
+        ("t0006", "Publication Information such as Title, Authors, and Affiliation"),
+        ("t0007", "Other")
+    ]
+    return topic_list    
+
+def agent_parser(sentences,llm):
+    topic_list = the_paper()
     agents = [miss_deep(llm), joker(llm), wendy(llm)]
     topic_ider = Agent(
         role=f"Topic ID Reporter",
@@ -383,21 +418,53 @@ def agent_the_paper(sentences,llm):
         print(classified_sentences)
     return classified_sentences
 
+class ChunkIDResponse(BaseModel):
+    chunk_id: str = Field(description="The chunk ID extracted from the text")
+
+    @validator('chunk_id')
+    def chunk_id_validator(cls, v):
+        if len(v) != ID_LIMIT or not v.isalnum():
+            raise ValueError(f"chunk_id must be a {ID-LIMIT}-character alphanumeric string")
+        return v
+
+class InfectiousDiseaseRelevance(BaseModel):
+    relevance: str = Field(description="Indicates if the chunk is related to Infectious Disease Outbreaks ('Yes' or 'No')")
+
+    @validator('relevance')
+    def relevance_validator(cls, v):
+        if v.lower() not in ['yes', 'no']:
+            raise ValueError('relevance must be either "Yes" or "No"')
+        return v
+    
 class AgenticChunker:
     def __init__(self, llm):
         self.chunks = {}
-        self.id_truncate_limit = 5
+        self.id_truncate_limit = ID_LIMIT
         # Whether or not to update/refine summaries and titles as you get new information
         self.generate_new_metadata_ind = True
-        self.print_logging = True
+        self.print_logging = DEBUG
         self.llm = llm
         self.llm_call_count = 0
-
-    def add_propositions(self, propositions):
-        for proposition in propositions:
-            self.add_proposition(proposition)
     
-    def add_proposition(self, proposition):
+    def to_json(self):
+        return json.dumps(self.__dict__, default=lambda o: o.__dict__, indent=4)
+
+    @classmethod
+    def from_json(cls, json_data):
+        data = json.loads(json_data)
+        ac = cls(data["llm"])
+        ac.chunks = data["chunks"]
+        ac.id_truncate_limit = data["id_truncate_limit"]
+        ac.generate_new_metadata_ind = data["generate_new_metadata_ind"]
+        ac.print_logging = data["print_logging"]
+        ac.llm_call_count = data["llm_call_count"]
+        return ac
+        
+    def add_propositions(self, propositions, file_path):
+        for proposition in propositions:
+            self.add_proposition(proposition, file_path)
+    
+    def add_proposition(self, proposition,file_path):
         if self.print_logging:
             print (f"\nAdding: '{proposition}'")
 
@@ -405,7 +472,7 @@ class AgenticChunker:
         if len(self.chunks) == 0:
             if self.print_logging:
                 print ("No chunks, creating a new one")
-            self._create_new_chunk(proposition)
+            self._create_new_chunk(proposition,file_path)
             return
 
         chunk_id = self._find_relevant_chunk(proposition)
@@ -415,16 +482,20 @@ class AgenticChunker:
 
         # If a chunk was found then add the proposition to it
         if chunk_id is not None:
-            if self.print_logging:
-                print (f"Chunk Found ({self.chunks[chunk_id]['chunk_id']}), adding to: {self.chunks[chunk_id]['title']}")
-            self.add_proposition_to_chunk(chunk_id, proposition)
-            #robust_api_call(self.add_proposition_to_chunk, chunk_id, proposition)
-            return
+            if "create" in chunk_id.lower():
+                if self.print_logging:
+                    print("Creating a new chunk as suggested by the LLM")
+                self._create_new_chunk(proposition, file_path)
+            else:
+                if self.print_logging:
+                    print (f"Chunk Found ({self.chunks[chunk_id]['chunk_id']}), adding to: {self.chunks[chunk_id]['title']}")
+                self.add_proposition_to_chunk(chunk_id, proposition)
+                #robust_api_call(self.add_proposition_to_chunk, chunk_id, proposition)
         else:
             if self.print_logging:
                 print ("No chunks found")
             # If a chunk wasn't found, then create a new one
-            self._create_new_chunk(proposition)
+            self._create_new_chunk(proposition,file_path)
         
 
     def add_proposition_to_chunk(self, chunk_id, proposition):
@@ -540,23 +611,37 @@ class AgenticChunker:
         Output: This chunk contains information about the types of food Greg likes to eat.
         """
         specific_instructions = """
-        Your summaries should focus on the uses of large language models (LLMs) in cancer research and take a fine-grained
-        approach to categorizing use cases. For everythign that does not fit into that category, you should generalize
-        very broadly. You must mention in the category summary whether LLMs are used or not used in a paper.
+        Your summaries should focus on infectious disease outbreaks and assess the potential threat leavel these
+        infectous disease pose. Take into consideration the deadliness or seversity of the disease, the infectivity,
+        and mention any potentially vulnerable populations such as the elderly or children and infants. Take a
+        fine-grained approach to categorizing disease cases based on threat level, potential for harm, infectious
+        agent, and geographical location. For everythign that does not fit into the category of infectious disease,
+        you should generalize very broadly. You must mention in the category summary the infectious disease, causal
+        organism or virus, threat level, and at-risk populations.
         
         Example:
-        Input: Proposition: LLMs can be used to diagnosis instestinal bowel disease.
-        Output: This chunk contains information about using LLMs in disease that are not cancer.
+        Input: Proposition: A new strain of influenza virus has been detected in several countries, causing severe
+        respiratory illness particularly in older adults and people with underlying health conditions. The virus
+        appears to be highly transmissible.
 
-        Input: Proposition: LLMs can be used to embed the electronic health record and make predictions about outcomes
-        in patients with breast cancer. First models were embedded using ClinBERT and the those embeddings were passed
-        to a linear regression model to predict survival under or over 5 years.
-        Output: This chunk contains information about the use of LLMs as embedding models for the electronic health
-        record and predicting patient outcomes in breast cancer. The specific models used where ClinBERT and a linear
-        regression.
+        Output: This chunk contains information about a potentially high threat level outbreak of a new influenza
+        virus strain. The virus causes severe illness, especially in vulnerable populations like the elderly and
+        those with pre-existing conditions. High transmissibility is noted. Close monitoring and containment
+        measures are warranted.
 
-        Input: Proposition: AI vision model can be used to predict extent of disease in breast cancer patients.
-        Output: This chunk does not contain information about the use of LLMs in cancer.
+        Input: Proposition: Health authorities are investigating a cluster of Legionnaires' disease cases traced
+        back to a cooling tower in an industrial area. Most patients are responding well to antibiotic treatment.
+
+        Output: This chunk discusses a localized outbreak of Legionnaires' disease linked to an environmental
+        source. The threat level appears moderate as patients are recovering with proper treatment. Working-age
+        adults in or around the affected industrial area are the main population at risk. Remediation of the
+        cooling tower should help control the outbreak.
+
+        Input: Proposition: Researchers have published a new machine learning model that can accurately predict
+        crop yields based on satellite imagery and weather data.
+
+        Output: This chunk does not contain information about an infectious disease outbreak. It broadly relates
+        to applications of machine learning in agriculture.
         """
         PROMPT = ChatPromptTemplate.from_messages(
             [
@@ -636,7 +721,7 @@ class AgenticChunker:
         return new_chunk_title
 
 
-    def _create_new_chunk(self, proposition):
+    def _create_new_chunk(self, proposition,file_path):
         new_chunk_id = str(uuid.uuid4())[:self.id_truncate_limit] # I don't want long ids
         #new_chunk_id = "aAa" + new_chunk_id + "aAa" #add delimiters to make it easier to find
         if DEBUG:
@@ -651,7 +736,8 @@ class AgenticChunker:
             'propositions': [proposition],
             'title' : new_chunk_title,
             'summary': new_chunk_summary,
-            'chunk_index' : len(self.chunks)
+            'chunk_index' : len(self.chunks),
+            'file_path' : file_path,
         }
         if self.print_logging:
             print (f"Created new chunk ({new_chunk_id}): {new_chunk_title}")
@@ -664,39 +750,40 @@ class AgenticChunker:
         chunk_outline = ""
 
         for chunk_id, chunk in self.chunks.items():
-            single_chunk_string = f"""Chunk ({chunk['chunk_id']}): {chunk['title']}\nSummary: {chunk['summary']}\n\n"""
+            single_chunk_string = f"""Chunk ({chunk['chunk_id']}): {chunk['title']}\nSummary: {chunk['summary']}\nFile: {chunk['file_path']}\n\n"""
         
             chunk_outline += single_chunk_string
         
         return chunk_outline
 
+
     def _find_relevant_chunk(self, proposition):
         current_chunk_outline = self.get_chunk_outline()
-
+        
         PROMPT = ChatPromptTemplate.from_messages(
             [
                 (
                     "system",
                     """
                     Determine whether or not the "Proposition" should belong to any of the existing chunks.
-
+                    
                     A proposition should belong to a chunk of their meaning, direction, or intention are similar.
                     The goal is to group similar propositions and chunks.
-
+                    
                     If you think a proposition should be joined with a chunk, return the chunk id.
                     If you do not think an item should be joined with an existing chunk, just return "No chunks"
-
+                    
                     Example:
                     Input:
-                        - Proposition: "Greg really likes hamburgers"
-                        - Current Chunks:
-                            - Chunk ID: 2n4l3d
-                            - Chunk Name: Places in San Francisco
-                            - Chunk Summary: Overview of the things to do with San Francisco Places
-
-                            - Chunk ID: 93833k
-                            - Chunk Name: Food Greg likes
-                            - Chunk Summary: Lists of the food and dishes that Greg likes
+                    - Proposition: "Greg really likes hamburgers"
+                    - Current Chunks:
+                    - Chunk ID: 2n4l3d
+                    - Chunk Name: Places in San Francisco
+                    - Chunk Summary: Overview of the things to do with San Francisco Places
+                    
+                    - Chunk ID: 93833k
+                    - Chunk Name: Food Greg likes
+                    - Chunk Summary: Lists of the food and dishes that Greg likes
                     Output: 93833k
                     """,
                 ),
@@ -704,9 +791,9 @@ class AgenticChunker:
                 ("user", "Determine if the following statement should belong to one of the chunks outlined:\n{proposition}"),
             ]
         )
-
+        
         runnable = PROMPT | self.llm
-
+    
         chunk_found = robust_api_call(runnable.invoke, {
             "proposition": proposition,
             "current_chunk_outline": current_chunk_outline
@@ -721,20 +808,29 @@ class AgenticChunker:
         if DEBUG:
             print("chunk_found (_find_relevant_chunks):",chunk_found)
 
+        existing_chunk_ids = list(self.chunks.keys())
+        for existing_id in existing_chunk_ids:
+            if existing_id in chunk_found:
+                return existing_id
+
+        return None
+        '''    
         if "no chunk" in chunk_found.lower():
             if DEBUG:
                 print("_find_relevant_chunks returning None")
-            return None
+                return None
 
-
-        # Use an LLM call to extract the chunk ID                                                                                                                  
+        #Define the grammar for the chunk ID response
+        grammar = LlamaGrammar.from_json_schema(ChunkIDResponse.schema_json())
+        
+        # Use an LLM call to extract the chunk ID                                                                                                       
         extract_prompt = ChatPromptTemplate.from_messages(
             [
                 (
                     "system",
                     """
                     You are an AI assistant that extracts chunk IDs from text.
-                    The chunk ID is a 5-character alphanumeric string enclosed in parentheses.
+                    The chunk ID is a {ID_LIMIT}-character alphanumeric string enclosed in parentheses.
                     If the text contains a chunk ID, return the chunk ID in a JSON format.
                     If the text does not contain a chunk ID, return None.
                     """
@@ -742,21 +838,25 @@ class AgenticChunker:
                 ("user", "Extract the chunk ID from the following text:\n{text}"),
             ]
         )
-
+        
         attempts = 0
         while attempts < 3:
             try:
                 extract_runnable = extract_prompt | self.llm
-                chunk_id = extract_runnable.invoke({
+                self.llm.grammar = grammar
+                chunk_id_response = extract_runnable.invoke({
+                    "ID_LIMIT": ID_LIMIT,
                     "text": chunk_found
                 })
                 self.llm_call_count += 1
                 if DEBUG:
-                    print("chunk_id (_find_relevant_chunk):", chunk_id)
-                if chunk_id.lower() == "none":
+                    print("chunk_id (_find_relevant_chunk):", chunk_id_response)
+                parsed_json = json.loads(chunk_id_response)
+                chunk_id = parsed_json.get("chunk_id", "")
+
+                if chunk_id == "":
                     return None
-                parsed_json = json.loads(chunk_id)
-                chunk_id = parsed_json.get("chunk_id",None)
+                
                 if chunk_id not in self.chunks:
                     # Prompt the agent to provide the correct chunk ID or create a new chunk
                     correct_chunk_id_prompt = ChatPromptTemplate.from_messages(
@@ -774,33 +874,25 @@ class AgenticChunker:
                     )
                     
                     correct_chunk_id_runnable = correct_chunk_id_prompt | self.llm
-                    correct_chunk_id = correct_chunk_id_runnable.invoke({
+                    self.llm.grammar = None
+                    correct_chunk_id_response = correct_chunk_id_runnable.invoke({
                         "proposition": proposition,
                         "chunk_id": chunk_id
                     })
 
-                    if correct_chunk_id.lower() == "create new chunk":
+                    if correct_chunk_id_response == "":
                         return None
                     else:
-                        chunk_id = correct_chunk_id.strip()
+                        chunk_id = correct_chunk_id_response.strip()
                 return chunk_id
+            
             except json.JSONDecodeError as e:
                 print(f"Error parsing JSON: {e}. Attempting again...")
                 attempts += 1
-
-
-        #if chunk_id.lower() == "none":
-        #    return None
-        
-        #chunk_id_match = re.search(r"'aAa'(\w{5})'aAa'", chunk_found)
-
-        #if chunk_id_match:
-        #    chunk_id = chunk_id_match.group(1)
-            #chunk_id = 'aAa' + chunk_id + 'aAa'
-        #    return chunk_id
-        
+            
         return None
-    
+        '''
+        
     def get_chunks(self, get_type='dict'):
         """
         This function returns the chunks in the format specified by the 'get_type' parameter.
@@ -861,6 +953,119 @@ def merge_sentences(document_content):
 
     return merged_text
 
+def print_infectious_disease_chunks(ac, llm):
+    LOCAL_DEBUG = False
+    
+    print("\nInfectious Disease Outbreak Chunks:")
+
+    grammar = LlamaGrammar.from_json_schema(InfectiousDiseaseRelevance.schema_json())
+    
+    PROMPT_RELEVANCE = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """
+                You are an AI assistant that analyzes chunk summaries to determine if they are related to Infectious Disease Outbreaks.
+
+                Consider the following criteria when determining if a chunk summary is related to Infectious Disease Outbreaks:
+                - Mentions of specific infectious diseases or outbreaks
+                - Descriptions of the spread, transmission, or impact of infectious diseases
+                - Discussions about prevention, control, or response measures for infectious disease outbreaks
+                - References to public health emergencies or pandemics caused by infectious diseases
+
+                Exclude the following types of information:
+                - Vaccine side effects or reactions that are not actual outbreaks
+                - Discussions about eradication efforts or progress reports without mentioning specific outbreaks
+                - Vague or incomplete information about surveillance gaps without mentioning specific diseases or outbreaks
+                
+                If the chunk summary is related to Infectious Disease Outbreaks based on the above criteria, respond with "Yes".
+                If the chunk summary is not related to Infectious Disease Outbreaks, respond with "No".
+
+                Chunk Summary:
+                {chunk_summary}
+                """
+            )
+        ]
+    )
+
+    pydantic_parser = PydanticOutputParser(pydantic_object=InfectiousDiseaseRelevance)
+    format_instructions = pydantic_parser.get_format_instructions()
+
+    PROMPT_THREAT_LEVEL = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                """
+                You are an AI assistant that assesses the threat level of Infectious Disease Outbreaks based on given information.
+
+                Consider the following factors when determining the threat level:
+                - Nature of the infection: How severe are the symptoms? What is the fatality rate?
+                - Likelihood of spread: How easily does the disease transmit? Is it highly contagious?
+                - Potential impact: How many people are at risk? Are vulnerable populations affected?
+
+                Provide a threat level assessment based on the above factors using the following scale:
+                - Low: The outbreak poses minimal risk to public health.
+                - Moderate: The outbreak poses a significant risk and requires attention and monitoring.
+                - High: The outbreak poses a severe risk and demands immediate action and containment measures.
+
+                Also, provide a brief explanation for your assessment.
+
+                Chunk Information:
+                {chunk_text}
+                """
+            )
+        ]
+    )
+
+    for chunk_id, chunk in ac.chunks.items():
+        chunk_summary = chunk['summary']
+
+        runnable = PROMPT_RELEVANCE | llm
+        llm.grammar = grammar
+        
+        relevance_response = robust_api_call(runnable.invoke, {
+            "chunk_summary": chunk_summary,
+            "format_instruction": format_instructions,
+        })
+        if LOCAL_DEBUG:
+            print("chunk_summary:", chunk_summary)
+            print("relevance_response:", relevance_response)
+
+        if "yes" in relevance_response.lower():
+            is_related = "yes"
+        else:
+            is_related = "no"
+
+        if LOCAL_DEBUG:
+            print("is_related:", is_related)
+        
+        if is_related == "yes":
+            chunk_text = "\n".join(chunk['propositions'])
+
+            runnable_threat_level = PROMPT_THREAT_LEVEL | llm
+            threat_assessment = robust_api_call(runnable_threat_level.invoke, {
+                "chunk_text": chunk_text
+            })
+            #self.llm_call_count += 1
+            
+            print(f"Chunk ID: {chunk_id}")
+            print(f"Title: {chunk['title']}")
+            print(f"Summary: {chunk_summary}")
+            print(f"File Path: {chunk['file_path']}")
+            print(f"Threat Level Assessment: {threat_assessment}")
+            print("Propositions:")
+            for proposition in chunk['propositions']:
+                print(f"- {proposition}")
+            print()
+
+def save_checkpoint(checkpoint_data, checkpoint_file):
+    try:
+        with open(checkpoint_file, "w") as file:
+            json.dump(checkpoint_data, file, indent=4)
+        print(f"Checkpoint saved to {checkpoint_file}")
+    except Exception as e:
+        print(f"Error saving checkpoint: {str(e)}")
+
 # MAIN CODE BLOCK
 def main():
     parser = argparse.ArgumentParser(description='...',
@@ -868,6 +1073,7 @@ def main():
                                      formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--specific_instruction', type=str, nargs='?', default="", help='Add on prompt for more specific instructions')
     parser.add_argument('--directory', type=str, nargs='?', default="", help='directory containing files to be processed')
+    parser.add_argument('--paragraph', action='store_true', help='Enable paragraph processing')
     args = parser.parse_args()
 
     user_query = args.specific_instruction
@@ -877,62 +1083,101 @@ def main():
     argo_wrapper_instance = ArgoWrapper()
     llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt4', temperature = 0.5)
 
-    ac = AgenticChunker(llm)
+    checkpoint_file = "checkpoint.json"
 
-    for filename in os.listdir(args.directory):
-        filepath = os.path.join(args.directory, filename)
-        if os.path.isfile(filepath):
-            paragraphs = split_file_into_paragraphs(filepath, llm)
-            print("Main: paragraphs = ",paragraphs)
-            classified_sentences = agent_the_paper(paragraphs,llm)
-            sorted_sentences = merge_sentences(classified_sentences)
-            print(f"Classified Texts for {filename}:", sorted_sentences)
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, "r") as file:
+            checkpoint_data = json.load(file)
+            ac = AgenticChunker.from_json(checkpoint_data["agenticChunker"])
+            current_file_index = checkpoint_data["currentFileIndex"]
+            # Load other relevant data from the checkpoint
+    else:
+        ac = AgenticChunker(llm)
+        current_file_index = 0
 
-            PROMPT = ChatPromptTemplate.from_messages(
-                [
-                    (
-                        "system",
-                        """
-                        You are a eloquent discusser of topics. You have a PhD in science and conveny information in
-                        expert and educated verbiage that is precise and efficient. You are not prone to unnecessary
-                        flourishes of language as those are for the weak-minded. Truth is the balance between precision
-                        and conciseness.
-                        """,
-                    ),
-                    ("user",
-                     """You will take the below chunk and summarize it without losing any key information. You will
-                     highlight hypotheses discussed, assumptions made, points raised, experiments performed, results obtained,
-                     and anything else relevant to understanding the chunk of text in its entirety.
-                     --Start of current chunk-- {chunk}  --End of current chunk--
-                     """,
-                     ),
-                ]
-            )
+    files = os.listdir(args.directory)
+        
+    if args.paragraph == False: #organizing papers by topic, i.e., file by file
+        for i in range(current_file_index, len(files)):
+            filepath = os.path.join(args.directory, files[i])
+            if os.path.isfile(filepath):
+                paragraphs = split_file_into_paragraphs(filepath, llm)
+                print("Main: paragraphs = ",paragraphs)
+                classified_sentences = agent_parser(paragraphs,llm)
+                sorted_sentences = merge_sentences(classified_sentences)
+                print(f"Classified Texts for {filename}:", sorted_sentences)
 
-            for topic_id, topic_info in sorted_sentences.items():
-                topic = topic_info['topic']
-                text = topic_info['text']
-                if len(text) > 10:
-                    runnable = PROMPT | llm
-                    section_summary = robust_api_call(runnable.invoke, {
-                        "chunk": text,
-                    })
+                PROMPT = ChatPromptTemplate.from_messages(
+                    [
+                        (
+                            "system",
+                            """
+                            You are a eloquent discusser of topics. You have a PhD in science and conveny information in
+                            expert and educated verbiage that is precise and efficient. You are not prone to unnecessary
+                            flourishes of language as those are for the weak-minded. Truth is the balance between precision
+                            and conciseness.
+                            """,
+                        ),
+                        ("user",
+                         """You will take the below chunk and summarize it without losing any key information. You will
+                         highlight hypotheses discussed, assumptions made, points raised, experiments performed, results obtained,
+                         and anything else relevant to understanding the chunk of text in its entirety.
+                         --Start of current chunk-- {chunk}  --End of current chunk--
+                         """,
+                         ),
+                    ]
+                )
+
+                for topic_id, topic_info in sorted_sentences.items():
+                    topic = topic_info['topic']
+                    text = topic_info['text']
+                    if len(text) > 10:
+                        runnable = PROMPT | llm
+                        section_summary = robust_api_call(runnable.invoke, {
+                            "chunk": text,
+                        })
                     sorted_sentences[topic_id]['summary'] = section_summary
 
-            print(f"Summaries added for {filename}:", sorted_sentences)
+                print(f"Summaries added for {filename}:", sorted_sentences)
 
-            paper_summary = ""
-            for topic_id, topic_info in sorted_sentences.items():
-                if 'summary' in topic_info:
-                    section_summary = topic_info['summary']
-                    paper_summary += section_summary + "\n"
+                paper_summary = ""
+                for topic_id, topic_info in sorted_sentences.items():
+                    if 'summary' in topic_info:
+                        section_summary = topic_info['summary']
+                        paper_summary += section_summary + "\n"
 
-            print(f"Paper Summary for {filename}:", paper_summary)
-            ac.add_propositions([paper_summary])
+                print(f"Paper Summary for {filename}:", paper_summary)
+                ac.add_propositions([paper_summary],filepath)
 
-    ac.pretty_print_chunks()
-    ac.pretty_print_chunk_outline()
+                # Save checkpoint after processing each file
+                checkpoint_data = {
+                    "agenticChunker": ac.to_json(),
+                    "currentFileIndex": i + 1,
+                    # Include other relevant data in the checkpoint
+                }
+                save_checkpoint(checkpoint_data, checkpoint_file)
 
+    if args.paragraph == True:
+        for i in range(current_file_index, len(files)):
+            filepath = os.path.join(args.directory, files[i])
+            if os.path.isfile(filepath):
+                paragraphs = split_file_into_paragraphs(filepath, llm)
+                #print("Main: paragraphs = ",paragraphs)
+                ac.add_propositions(paragraphs,filepath)
+
+                # Save checkpoint after processing each file
+                checkpoint_data = {
+                    "agenticChunker": ac.to_json(),
+                    "currentFileIndex": i + 1,
+                    # Include other relevant data in the checkpoint
+                }
+                save_checkpoint(checkpoint_data, checkpoint_file)
+                
+    #ac.pretty_print_chunks()
+    #ac.pretty_print_chunk_outline()
+    print_infectious_disease_chunks(ac, llm)
+    print("Number llm calls by AgenticChunker:",ac.llm_call_count)
+    
     exit(0)
 
 if __name__ == '__main__':

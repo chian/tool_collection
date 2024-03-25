@@ -4,7 +4,7 @@ from langchain_core.language_models.llms import LLM
 import requests
 import json
 from ARGO import ArgoWrapper, ArgoEmbeddingWrapper
-
+from llama_cpp.llama_grammar import LlamaGrammar
 
 # The ARGO_LLM class. Uses the _invoke_model helper function.
 # It implements the _call function.
@@ -13,6 +13,7 @@ from ARGO import ArgoWrapper, ArgoEmbeddingWrapper
 class ARGO_LLM(LLM):
 
     argo: ArgoWrapper
+    grammar: Optional[LlamaGrammar] = None
 
     @property
     def _llm_type(self) -> str:
