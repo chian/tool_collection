@@ -14,6 +14,9 @@ from crewai import Agent, Task, Crew, Process
 import textwrap
 from ARGO import ArgoWrapper, ArgoEmbeddingWrapper
 from CustomLLM import ARGO_LLM, ARGO_EMBEDDING
+from crewai import Agent, Task, Crew, Process
+from crewai_tools import tool
+import subprocess
 
 # USER SET PARAMETERS
 ENDPOINT = "argo"
@@ -36,18 +39,13 @@ def robust_api_call(func, *args, **kwargs):
         raise Exception("API call failed or timed out.")
     return result
 
-    
-from crewai import Agent, Task, Crew, Process
-from crewai_tools import tool
-import subprocess
-
 @tool("Python Code Executor")
-def python_code_executor(code: str) -> str:
+def python_code_executor(code: str, command_args: str = "") -> str:
     """Executes Python code and returns the output or the error."""
     try:
         # Execute the python code using subprocess
         completed_process = subprocess.run(
-            ["python", "-c", code], 
+            ["python", "-c", code] + command_args.split(), 
             check=True, 
             stdout=subprocess.PIPE, 
             stderr=subprocess.PIPE,
@@ -57,32 +55,55 @@ def python_code_executor(code: str) -> str:
     except subprocess.CalledProcessError as e:
         return e.stderr
 
+def reverse_llm_output(output):
+    """Reverses the output of an LLM discussion."""
+    # Assuming the output is a string, reverse it
+    return output[::-1]
+
+def assess_code_purpose_and_reverse_if_needed(original_code, modified_code, llm):
+    """Assesses if the purpose of the modified code has changed. If so, reverses changes."""
+    # This is a placeholder for the actual logic to assess code purpose
+    # Let's assume it returns True if the purpose has changed, False otherwise
+    purpose_changed = False  # Placeholder for actual assessment logic
+    if purpose_changed:
+        # If the purpose has changed, reverse the modifications by using the original code
+        return original_code
+    else:
+        # If the purpose hasn't changed, proceed with the modified code
+        return modified_code
 
 # MAIN CODE BLOCK
 def main():
+
 
     parser = argparse.ArgumentParser(description='...',
                                      epilog='Example usage: python_debug ...',
                                      formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--specific_instruction', type=str, nargs='?', default="", help='Add on prompt for more specific instructions')
-    parser.add_argument('--filepath', type=str, nargs='?', default="", help='file to be run')
+    parser.add_argument('--filepath', type=str, nargs='?', default="bug_example.py", help='file to be run')
     parser.add_argument('--command_args', type=str, nargs='?', default="", help='command args')
     args = parser.parse_args()
 
     user_query = args.specific_instruction
 
+    # Read the content of the file specified in args.filepath
+    with open(args.filepath, 'r') as file:
+        original_code = file.read()
+
+    execute_code = args.filepath + " " + args.command_args
+
     argo_wrapper_instance = ArgoWrapper()
-    llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt4', temperature = 1.0)
+    llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt35', temperature = 1.0)
 
     # Example usage
-
     # Assuming the decorator approach was used to create the tool
     script_executor = Agent(
         role='Python Code Execution Specialist',
         goal='Execute Python code and return results or errors.',
         backstory='A specialist capable of running Python code snippets securely.',
         tools=[python_code_executor],
-        llm=llm
+        llm=llm,
+        verbose=True
     )
 
     debugger = Agent(
@@ -90,7 +111,8 @@ def main():
         goal='Read code, analyze error messages, and suggest debugging steps',
         backstory='Expert in analyzing Python error messages and suggesting fixes.',
         tools=[],
-        llm=llm
+        llm=llm,
+        verbose=True
     )
 
     code_writer = Agent(
@@ -98,207 +120,75 @@ def main():
         goal='Read code and debugging suggestions, then rewrite code incorporating the suggested fixes',
         backstory='Expert in implementing detailed Python code according to instructions.',
         tools=[],
-        llm=llm
+        llm=llm,
+        verbose=True
     )
     
-    task_execute_code = Task(
-        description='Run script',
-        expected_output='Either the standard output from a python run or the error code to help with debugging',
-        agent=script_executor,
+    purpose_preserver = Agent(
+        role='Purpose Preserver',
+        goal='Understand the original purpose of the code and reject changes that alter that purpose.',
+        backstory='An agent trained to analyze code and its modifications to ensure the core intent remains unchanged.',
+        tools=[],  # Tools would be specific to code analysis and natural language understanding
+        llm=llm,
+        verbose=True
     )
     
-    task_debug_code = Task(
-        description='Analyze any error messages from executing the Python code and suggest debugging steps.',
-        expected_output = 'Suggestions for addressing the error given',
-        agent=debugger,
-    )
-    
-    # Instantiate your crew with a sequential process
-    crew = Crew(
-        agents=[script_executor],
-        tasks=[task_execute_code],
-        process=Process.sequential
+    # Task to execute the original code
+    task_execute_original_code = Task(
+        description='Execute the original Python code to understand its purpose. The command line for executing this code is ' + execute_code,
+        expected_output='Output or behavior of the original code.',
+        agent=script_executor
     )
 
-    # Example code for kicking off the crew process - this is conceptual
-    # You would need to provide the actual file path and handle the execution context safely
-    command = ["python3", args.filepath]
+    # Task to debug the original code
+    task_debug_original_code = Task(
+        description='Analyze any error messages from executing the Python code and suggest debugging steps. ' + original_code,
+        expected_output='Suggestions for addressing the error given',
+        agent=debugger,
+        #context=[task_execute_original_code]  # Depends on the output of executing the original code
+    )
+
+    # Task to revise the original code based on debugging suggestions
+    task_revise_original_code = Task(
+        description='Revise the Python code based on the debugging suggestions. ' + original_code,
+        expected_output='Revised Python code incorporating the debugging suggestions',
+        agent=code_writer,
+        #context=[task_debug_original_code]  # Depends on the debugging suggestions
+    )
+
+    # Task to assess if the purpose of the code has changed after modifications
+    task_assess_code_purpose = Task(
+        description='Assess the purpose of the original code: ' + original_code,
+        expected_output='Determination if the code purpose has changed.',
+        agent=purpose_preserver,
+        #context=[task_revise_original_code]  # Depends on the revised code
+    )
+
+    # Update the crew configuration to include the new tasks
+    crew = Crew(
+        agents=[script_executor, debugger, code_writer, purpose_preserver],
+        tasks=[task_assess_code_purpose, task_execute_original_code, task_debug_original_code, task_revise_original_code],
+        process=Process.sequential,
+        #manager_llm=llm,
+        full_output=True,
+        verbose=True,
+    )
+
+    # Execute tasks in the correct order and save the modified code
+    # This is a conceptual example; you'll need to adapt it based on how your task execution and result retrieval are implemented
     result = crew.kickoff()
     
+    # Assuming 'output' contains the revised code
+    modified_code = result.get('output')  # This line is conceptual and depends on your implementation
+
+    # Save the modified code to a file
+    #with open('modified_code.py', 'w') as file:
+    #    file.write(modified_code)
+
     # Process the result
-    print(result)
+    print(modified_code)
 
     exit(0)
-
-    query_planner = Agent(
-        role="Python Planner",
-        goal="Plan the steps needed to build a python code to solve the given problem",
-        backstory=textwrap.dedent("""
-        You are an expert at identifying modeling parameters, generating pseudocode,
-        and coding simulations.
-        Accept the user-question and determine if it requires sub-questions to be answered
-        by other agents.
-        Your final answer MUST be a description of high-level steps to carry out that
-        will be needed to solve a specific coding problem.
-        """),
-        verbose=True,
-        allow_delegation=True,
-        tools=[],  ###
-        llm=llm,
-    )
-
-    python_coder = Agent(
-        role="Python Coder",
-        goal="To efficiently translate scientific queries into executable Python code that provides accurate solutions, insights, or simulations.",
-        backstory=textwrap.dedent("""\
-        Born in the digital realm of code and logic, you possess an innate ability to understand and solve complex scientific problems through the art of programming. With each challenge presented, you first dissect the question into manageable components, identifying key variables, algorithms, and computational methods best suited for the task. Your expertise lies not only in writing clean, efficient Python code but also in employing libraries such as NumPy for numerical calculations, Pandas for data manipulation, Matplotlib for data visualization, and SciPy for scientific computing.
-
-        Your journey is filled with instances where abstract scientific inquiries were transformed into tangible outcomes. For example, when tasked with predicting the spread of a virus in a population, you meticulously crafted a SIR model simulation, incorporating real-world data for parameters. Or, when faced with the challenge of analyzing astronomical data to find patterns in star movements, you leveraged the power of machine learning libraries to classify and predict celestial phenomena.
-
-        Your process begins with a deep understanding of the scientific question at hand. You then outline a step-by-step approach, breaking down the problem into smaller, more manageable tasks. This often involves generating pseudocode to visualize the logic flow before diving into the actual coding phase. Through iterative testing and refinement, you ensure that the final Python script not only solves the problem but does so with the utmost efficiency and accuracy.
-
-        Few-shot learning examples from your past adventures include:
-
-        1. User: Converting a question about chemical reaction rates into a differential equation solver using SciPy.
-        Answer:
-            ```python
-            from scipy.integrate import solve_ivp
-            import numpy as np
-            import matplotlib.pyplot as plt
-
-            # Define the differential equation representing the chemical reaction rate
-            def reaction_rate(t, C, k):
-                # C is the concentration of reactant, and k is the rate constant
-                dCdt = -k * C
-                return dCdt
-
-            # Initial conditions
-            C0 = [1.0]  # Initial concentration
-            k = 0.1     # Rate constant
-            t = np.linspace(0, 50, 100)  # Time from 0 to 50
-
-            # Solve the differential equation
-            solution = solve_ivp(reaction_rate, [t[0], t[-1]], C0, args=(k,), t_eval=t)
-
-            # Plot the solution
-            plt.plot(solution.t, solution.y[0])
-            plt.xlabel('Time')
-            plt.ylabel('Concentration')
-            plt.title('Chemical Reaction Rate')
-            plt.show()
-            ```
-
-        2. User: Turning a query regarding climate data analysis into a script that uses Pandas for data cleaning and Matplotlib for trend visualization.
-        Answer:
-            ```python
-            import pandas as pd
-            import matplotlib.pyplot as plt
-
-            # Load the climate data
-            data = pd.read_csv('climate_data.csv')
-
-            # Data cleaning and preprocessing
-            data['Date'] = pd.to_datetime(data['Date'])
-            data.set_index('Date', inplace=True)
-            cleaned_data = data.dropna()  # Remove missing values
-
-            # Plotting the temperature trend
-            plt.figure(figsize=(10, 6))
-            plt.plot(cleaned_data.index, cleaned_data['Temperature'], label='Temperature')
-            plt.xlabel('Date')
-            plt.ylabel('Temperature (°C)')
-            plt.title('Climate Data Analysis')
-            plt.legend()
-            plt.show()
-            ```
-
-        3. User: Translating a hypothesis about genetic patterns in populations into a simulation coded with NumPy for statistical analysis.
-        Answer:
-            ```python
-            import numpy as np
-
-            # Simulate genetic patterns in a population
-            # Assuming a simple model where genes are represented by 0s and 1s
-
-            population_size = 1000
-            gene_pool = np.random.choice([0, 1], size=(population_size,))
-
-            # Analysis: Calculate the frequency of gene '1' in the population
-            frequency_of_gene_1 = np.sum(gene_pool) / population_size
-
-            print(f"Frequency of gene '1' in the population: {frequency_of_gene_1}")
-            ```
-
-        Each challenge you've faced has honed your skills, making you an unparalleled Python Coder in the quest for scientific discovery and innovation.
-        """),
-        verbose=True,
-        allow_delegation=True,
-        tools=[],
-        llm=llm,
-    )
-
-    query_executor = Agent(
-        role=textwrap.dedent("""
-        Agent Role: Information Synthesis
-
-        Key Responsibilities:
-        - Synthesize information from diverse sources to provide a comprehensive understanding.
-        - Adhere to the principles of clarity and conciseness in reporting findings.
-        """),
-        goal="Information Searcher",
-        backstory="Your final answer should guide one to a correct response to the original user-query.",
-        verbose=True,
-        llm=llm,
-        tools=[],
-        allow_delegation=False,
-    )
-
-    relevance_thinker = Agent(
-        role=textwrap.dedent("""
-            Agent Role: Relevance Assessor
-
-            Primary Objectives:
-            1. Come up with criteria or subquestions that will help you decide whether a document is relevant or irrelevant
-            to a question.
-            2. Decide is text provided answers the question. If so, it is relevant.
-            3. If the text provided does not in any way help answer the question presented, then it is irrelevant.
-        """),
-        goal="Information Assessment",
-        backstory=textwrap.dedent("""
-            Critical Thinking: This style involves analyzing the problem from different perspectives, questioning assumptions, and evaluating 
-            the evidence or information available. It focuses on logical reasoning, evidence-based decision-making, and identifying potential 
-            biases or flaws in thinking.
-        """),
-        verbose=True,
-        llm=llm,
-        tools=[],
-        allow_delegation=False,
-    )
-        
-    question_task = Task(
-        description=textwrap.dedent(f"""
-        Write code to answer the question or according to the given instruction:
-        {user_query}
-        Plan the code using a series of steps.
-        Then write the pseudocode corresponding to those steps.
-        Then write the detailed python code.
-        """),
-        expected_output="Final bug-free runnable python code that carries out the user's request",
-        agent=query_planner,
-        
-    )
-
-    crew = Crew(
-        agents=[query_planner,python_coder,relevance_thinker,query_executor],
-        tasks=[question_task],
-        verbose=2,  # print what tasks are being worked on, can set it to 1 or 2
-        manager_llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt4', temperature = 1.0),
-        process=Process.hierarchical,
-    )
-
-    sub_answer = crew.kickoff()
-    print(sub_answer)
-
 
 if __name__ == '__main__':
     main()

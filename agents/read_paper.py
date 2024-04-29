@@ -41,7 +41,7 @@ def call_with_timeout(func, *args, **kwargs):
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         future = executor.submit(func, *args, **kwargs)
         try:
-            return future.result(timeout=10)  # 10 seconds timeout
+            return future.result(timeout=120)  # 30 seconds timeout
         except concurrent.futures.TimeoutError:
             print("The API call timed out.")
             raise Exception("API call timed out.")
@@ -58,19 +58,13 @@ def retry_on_error(func):
                 else:
                     return result
             except Exception as e:
-                if "status code: 500" in str(e):
-                    print("Received status code 500. Retrying the API call in 1 hour...")
-                    time.sleep(3600)  # Sleep for 1 hour before retrying
-                elif "API call timed out." in str(e):
-                    print("API call timed out. Retrying the API call in 1 hour...")
-                    time.sleep(3600)  # Sleep for 1 hour before retrying
-                else:
-                    raise e
+                print(f"An error occurred: {e}. Retrying the API call in 1 hour...")
+                time.sleep(3600)  # Sleep for 1 hour before retrying
     return wrapper
 
 # Retry mechanism with exponential backoff
-#@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_attempt_number=5)
 @retry_on_error
+#@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_attempt_number=5)
 def robust_api_call(func, *args, **kwargs):
     while True:
         try:
@@ -106,9 +100,9 @@ def split_file_into_sentences(file_path,embeddings):
 def split_file_into_chunks(file_path):
     #Process a single file and perform semantic segmentation.
     print(f"Processing {file_path}...")
-
-    with open(file_path, 'r') as file:
-        file_content = file.read()
+    sanitized_content = read_and_sanitize_file(file_path)
+    #with open(file_path, 'r') as file:
+    #    file_content = file.read()
 
     #print(file_content)
     # Create a CharacterTextSplitter instance
@@ -450,9 +444,9 @@ class AgenticChunker:
         return json.dumps(self.__dict__, default=lambda o: o.__dict__, indent=4)
 
     @classmethod
-    def from_json(cls, json_data):
+    def from_json(cls, json_data, llm=None):
         data = json.loads(json_data)
-        ac = cls(data["llm"])
+        ac = cls(llm)
         ac.chunks = data["chunks"]
         ac.id_truncate_limit = data["id_truncate_limit"]
         ac.generate_new_metadata_ind = data["generate_new_metadata_ind"]
@@ -1066,6 +1060,17 @@ def save_checkpoint(checkpoint_data, checkpoint_file):
     except Exception as e:
         print(f"Error saving checkpoint: {str(e)}")
 
+def sanitize_for_json(input_string):
+    # Replace or escape specific characters that are problematic for JSON
+    # This is a basic example; for more complex scenarios, consider using a library
+    sanitized_string = input_string.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n').replace('\r', '\\r')
+    return sanitized_string
+
+def read_and_sanitize_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+        return sanitize_for_json(content)
+
 # MAIN CODE BLOCK
 def main():
     parser = argparse.ArgumentParser(description='...',
@@ -1088,7 +1093,7 @@ def main():
     if os.path.exists(checkpoint_file):
         with open(checkpoint_file, "r") as file:
             checkpoint_data = json.load(file)
-            ac = AgenticChunker.from_json(checkpoint_data["agenticChunker"])
+            ac = AgenticChunker.from_json(checkpoint_data["agenticChunker"], llm=llm)
             current_file_index = checkpoint_data["currentFileIndex"]
             # Load other relevant data from the checkpoint
     else:
