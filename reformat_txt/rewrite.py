@@ -12,7 +12,7 @@ def process_chunk(chunk_text, specific_instruction):
     headers = {'Content-Type': 'application/json'}
 
     data = {"user":"chia",
-            "model":"gpt4", 
+            "model":"gpt35", 
             "system": "You are a helpful AI assistant.",
             "prompt":[specific_instruction + chunk_text],
             "stop":[],
@@ -41,7 +41,7 @@ def process_chunk(chunk_text, specific_instruction):
 def process_file(file_path, specific_instruction):
     """Process a single file to summarize its content."""
     print(f"Processing {file_path}...")
-    chunk_size = 3500  # Number of words per chunk
+    chunk_size = 2000  # Number of words per chunk
 
     with open(file_path, 'r') as file:
         file_content = file.read()
