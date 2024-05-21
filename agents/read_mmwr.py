@@ -34,6 +34,9 @@ from functools import wraps
 
 from AgenticChunker import AgenticChunker
 
+from ollama import Client
+from langchain_community.llms import Ollama
+
 DEBUG = 1
 ID_LIMIT = 5
 NUM_LLM_THREADS = 4
@@ -287,7 +290,7 @@ def param_infectious_disease_chunks(ac, llm):
     
     print("\nInfectious Disease Outbreak Chunks:")
 
-    grammar = LlamaGrammar.from_json_schema(InfectiousDiseaseRelevance.schema_json())
+    #grammar = LlamaGrammar.from_json_schema(InfectiousDiseaseRelevance.schema_json())
     
     PROMPT_RELEVANCE = ChatPromptTemplate.from_messages(
         [
@@ -347,9 +350,9 @@ def param_infectious_disease_chunks(ac, llm):
         chunk_summary = chunk['summary']
 
         runnable = PROMPT_RELEVANCE | llm
-        llm.grammar = grammar
+        #llm.grammar = grammar
         
-        relevance_response = robust_api_call(runnable.invoke, {
+        relevance_response = runnable.invoke({
             "chunk_summary": chunk_summary,
             "format_instruction": format_instructions,
         })
@@ -458,11 +461,8 @@ def main():
     else:  # Handle single file input
         files = [args.input]
 
-    #Load models
-    argo_embedding_wrapper_instance = ArgoEmbeddingWrapper()	
-    argo_embedding = ARGO_EMBEDDING(argo_embedding_wrapper_instance)
-    argo_wrapper_instance = ArgoWrapper()
-    llm = ARGO_LLM(argo=argo_wrapper_instance,model_type='gpt4', temperature = 1.0)
+    # Initialize the ollama client
+    llm = Ollama(model="llama3")
 
     #Load save checkpoint for agentic chunking
     checkpoint_file = "checkpoint.json"
