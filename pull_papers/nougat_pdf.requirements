@@ -1,4 +1,5 @@
-pip install fitz
+pip uninstall fitz
+pip install pymupdf
 pip install frontend
 pip install tools
 pip install pillow
