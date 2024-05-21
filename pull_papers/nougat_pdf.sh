@@ -16,10 +16,6 @@ if [ -d "$PDF_INPUT" ]; then
     PDF_NAME=$(basename "$PDF_FILE")
     TXT_NAME="${PDF_NAME%.pdf}.txt"
     ../pull_papers/nougat_pdf.py "$PDF_FILE"
-    if [ -f "$PDF_INPUT/$TXT_NAME" ]; then
-      echo "Processing $PDF_INPUT/$TXT_NAME with read_mmwr.py"
-      ./read_mmwr.py --input "$PDF_INPUT/$TXT_NAME" --paragraph
-    else
       echo "No output file for $PDF_FILE found in $PDF_INPUT"
     fi
   done

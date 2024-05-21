@@ -1,0 +1,4 @@
+pip install fitz
+pip install frontend
+pip install tools
+pip install pillow
