@@ -3,3 +3,4 @@ pip install pymupdf
 pip install frontend
 pip install tools
 pip install pillow
+pip install python-Levenshtein
