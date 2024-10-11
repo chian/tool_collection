@@ -43,7 +43,7 @@ def main():
         base_url=openai_api_base,
     )
 
-    def chunk_content(content, words_per_chunk=13000):
+    def chunk_content(content, words_per_chunk=10000):
         words = content.split()
         return [' '.join(words[i:i+words_per_chunk]) for i in range(0, len(words), words_per_chunk)]
 
