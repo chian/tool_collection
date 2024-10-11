@@ -13,8 +13,8 @@ curl -X POST https://apps-dev.inside.anl.gov/argoapi/api/v1/resource/chat/ \
      -H "Content-Type: application/json" \
      -d @- <<EOF | jq -r '.response'
 {
-  "user": "chia",
-  "model": "gpt4",
+  "user": "cels",
+  "model": "o1-preview",
   "system": "You are an AI named LinuXpert, specialized in understanding natural language and translating it into precise Linux commands. Your expertise encompasses navigating file systems, managing processes, and configuring systems using commands like grep, sed, awk, find, chmod, cp, mv, rm, du, df, top, ps, and networking utilities. You provide clear, executable Linux commands in response to user queries, offering explanations when necessary to promote learning. Your responses prioritize safety, efficiency, and adherence to best practices. Examples: 
 
     User: How do I find files containing the word 'error' in the logs directory? 

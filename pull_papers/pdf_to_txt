@@ -1,44 +1,35 @@
 #!/bin/bash
 
-# Check if a directory is provided
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <directory>"
-    exit 1
+# Check if at least one argument is provided
+if [ "$#" -lt 1 ]; then
+  echo "Usage: $0 <PDF file or directory>"
+  exit 1
 fi
 
-# Directory containing the PDF files
-directory="$1"
+# Assign the first argument to a variable
+PDF_INPUT="$1"
 
-# Loop through each PDF file in the directory
-for pdf_file in "$directory"/*.pdf; do
-    # Skip if the file is not a PDF
-    if [[ ! $pdf_file == *.pdf ]]; then
-        continue
+# Determine the directory of the PDF input and process accordingly
+if [ -d "$PDF_INPUT" ]; then
+  # If the input is a directory, process all PDF files in it
+  for PDF_FILE in "$PDF_INPUT"/*.pdf; do
+    PDF_NAME=$(basename "$PDF_FILE")
+    TXT_NAME="${PDF_NAME%.pdf}.txt"
+    ../pull_papers/nougat_pdf.py "$PDF_FILE"
+    if [ -f "$PDF_INPUT/$TXT_NAME" ]; then
+      echo "Processing $PDF_INPUT/$TXT_NAME with read_mmwr.py"
+      ./read_mmwr.py --input "$PDF_INPUT/$TXT_NAME" --paragraph
+    else
+      echo "No output file for $PDF_FILE found in $PDF_INPUT"
     fi
-
-    # Construct the TXT filename by replacing the PDF extension
-    txt_file="${pdf_file%.pdf}.txt"
-
-    # Check if the TXT file already exists, skip if it does
-    if [ -f "$txt_file" ]; then
-        echo "Skipping existing file: $txt_file"
-        continue
-    fi
-
-    # Use curl to process the PDF and save the output to the TXT file
-    curl -X POST https://apps-dev.inside.anl.gov/gottextai/api/v1/extracttext \
-         -F "file=@$pdf_file" \
-         -F "clean_for_corpus=False" \
-         -F "simple_clean_text=True" \
-         -F "simple_summary=False" > "$txt_file"
-
-    # Check if curl command was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to process $pdf_file"
-        continue
-    fi
-
-    echo "Processed and saved: $txt_file"
-done
-
-echo "Processing complete."
+  done
+elif [ -f "$PDF_INPUT" ]; then
+  # If the input is a file, process this file only
+  PDF_DIR=$(dirname "$PDF_INPUT")
+  PDF_NAME=$(basename "$PDF_INPUT")
+  TXT_NAME="${PDF_NAME%.pdf}.txt"
+  ../pull_papers/nougat_pdf.py "$PDF_INPUT"
+else
+  echo "The specified PDF file or directory does not exist."
+  exit 1
+fi

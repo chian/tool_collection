@@ -116,21 +116,30 @@ class StoppingCriteriaScores(StoppingCriteria):
 processor = AutoProcessor.from_pretrained("facebook/nougat-small")
 model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-small")
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+if torch.backends.mps.is_available():
+    device = "mps"
+elif torch.cuda.is_available():
+    device = "cuda"
+else:
+    device = "cpu"
 model.to(device)
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description="Rasterize PDFs and process with Nougat model.")
-parser.add_argument("input", help="Filename, directory, or wildcard expression for PDF files.")
+parser.add_argument("input", nargs='+', help="Filename(s) or directory(ies) of PDF files.")
 args = parser.parse_args()
 
+pdf_files=[]
 # Handle directory input
-if Path(args.input).is_dir():
-    pdf_files = list(Path(args.input).glob("*.pdf"))
-elif "*" in args.input:  # Handle wildcard input
-    pdf_files = [Path(file) for file in glob.glob(args.input)]
-else:  # Handle single file input
-    pdf_files = [Path(args.input)]
+for input_item in args.input:
+    path = Path(input_item)
+    if path.is_dir():
+        pdf_files.extend(path.glob("*.pdf"))
+    elif path.is_file():
+        pdf_files.append(path)
+
+# Remove duplicates and ensure all files are PDFs
+pdf_files = list(set([f for f in pdf_files if f.suffix.lower() == '.pdf']))
 
 # Check if any PDF file needs processing
 needs_processing = False
@@ -142,11 +151,9 @@ for pdf_file in pdf_files:
 
 if needs_processing:
     # Load the Nougat model and processor from the hub
-    processor = AutoProcessor.from_pretrained("facebook/nougat-small")
-    model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-small")
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    model.to(device)
+    #processor = AutoProcessor.from_pretrained("facebook/nougat-small")
+    #model = VisionEncoderDecoderModel.from_pretrained("facebook/nougat-small")
+    #model.to(device)
 
     for pdf_file in pdf_files:
         # Define the output filename (same as the PDF file but with .txt extension)
@@ -156,6 +163,8 @@ if needs_processing:
         if output_filename.exists():
             print(f"Skipping {pdf_file} as {output_filename} already exists.")
             continue
+
+        print(f"Working on {pdf_file} ...")
 
         images = rasterize_paper(pdf=pdf_file, return_pil=True)
         all_generated_text = []  # List to store generated text for all images in the current PDF

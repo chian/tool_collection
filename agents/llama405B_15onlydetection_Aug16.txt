@@ -1,0 +1,1050 @@
+Total tokens in the prompt according to GPT-3 tokenizer: 22724
+Total tokens in the prompt according to GPT-3 tokenizer: 22381
+Total tokens in the prompt according to GPT-3 tokenizer: 6982
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6643-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22771
+Total tokens in the prompt according to GPT-3 tokenizer: 15585
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6644-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 30154
+Total tokens in the prompt according to GPT-3 tokenizer: 18874
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6646-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22750
+Total tokens in the prompt according to GPT-3 tokenizer: 11567
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6647-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20231
+Total tokens in the prompt according to GPT-3 tokenizer: 9200
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6648-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20856
+Total tokens in the prompt according to GPT-3 tokenizer: 6409
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6649-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23291
+Total tokens in the prompt according to GPT-3 tokenizer: 3980
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6650-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23835
+Total tokens in the prompt according to GPT-3 tokenizer: 3601
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm665152-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24344
+Total tokens in the prompt according to GPT-3 tokenizer: 22231
+Total tokens in the prompt according to GPT-3 tokenizer: 22736
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6701-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22868
+Total tokens in the prompt according to GPT-3 tokenizer: 13357
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6702-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23773
+Total tokens in the prompt according to GPT-3 tokenizer: 18942
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6703-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22921
+Total tokens in the prompt according to GPT-3 tokenizer: 10104
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6704-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21860
+Total tokens in the prompt according to GPT-3 tokenizer: 10437
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6705-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22328
+Total tokens in the prompt according to GPT-3 tokenizer: 19676
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6706-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2), Influenza A (H1N1) pdm09, Influenza B viruses
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24043
+Total tokens in the prompt according to GPT-3 tokenizer: 22995
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6707-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21014
+Total tokens in the prompt according to GPT-3 tokenizer: 8617
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6708-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21074
+Total tokens in the prompt according to GPT-3 tokenizer: 4561
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6709-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Brucella abortus
+Total tokens in the prompt according to GPT-3 tokenizer: 23715
+Total tokens in the prompt according to GPT-3 tokenizer: 10154
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6710-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21891
+Total tokens in the prompt according to GPT-3 tokenizer: 10707
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6711-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24814
+Total tokens in the prompt according to GPT-3 tokenizer: 11763
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6712-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22727
+Total tokens in the prompt according to GPT-3 tokenizer: 14672
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6713-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21999
+Total tokens in the prompt according to GPT-3 tokenizer: 9152
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6714-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21685
+Total tokens in the prompt according to GPT-3 tokenizer: 10097
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6715-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 18202
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6716-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22315
+Total tokens in the prompt according to GPT-3 tokenizer: 5000
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6717-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22843
+Total tokens in the prompt according to GPT-3 tokenizer: 10661
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6718-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21809
+Total tokens in the prompt according to GPT-3 tokenizer: 5190
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6719-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21971
+Total tokens in the prompt according to GPT-3 tokenizer: 3422
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6720-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23105
+Total tokens in the prompt according to GPT-3 tokenizer: 4731
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6721-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23809
+Total tokens in the prompt according to GPT-3 tokenizer: 18659
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6722-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22335
+Total tokens in the prompt according to GPT-3 tokenizer: 2273
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6723-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21158
+Total tokens in the prompt according to GPT-3 tokenizer: 3002
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6724-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23722
+Total tokens in the prompt according to GPT-3 tokenizer: 12687
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6725-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 18455
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6726-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22530
+Total tokens in the prompt according to GPT-3 tokenizer: 879
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6727-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20120
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6728-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 17960
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6729-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23121
+Total tokens in the prompt according to GPT-3 tokenizer: 15247
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6730-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22259
+Total tokens in the prompt according to GPT-3 tokenizer: 14649
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6731-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Zika virus
+Total tokens in the prompt according to GPT-3 tokenizer: 24207
+Total tokens in the prompt according to GPT-3 tokenizer: 22630
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6732-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 25801
+Total tokens in the prompt according to GPT-3 tokenizer: 23650
+Total tokens in the prompt according to GPT-3 tokenizer: 2094
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6733-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24424
+Total tokens in the prompt according to GPT-3 tokenizer: 4979
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6734-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21815
+Total tokens in the prompt according to GPT-3 tokenizer: 18265
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6735-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22847
+Total tokens in the prompt according to GPT-3 tokenizer: 3855
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6736-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23934
+Total tokens in the prompt according to GPT-3 tokenizer: 4434
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6737-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Monkeypox virus
+Total tokens in the prompt according to GPT-3 tokenizer: 21385
+Total tokens in the prompt according to GPT-3 tokenizer: 19297
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6738-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21575
+Total tokens in the prompt according to GPT-3 tokenizer: 10017
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6739-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23193
+Total tokens in the prompt according to GPT-3 tokenizer: 12583
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6740-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23048
+Total tokens in the prompt according to GPT-3 tokenizer: 11331
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6741-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20423
+Total tokens in the prompt according to GPT-3 tokenizer: 10820
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6742-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2) Variant Virus, Rabies virus, Influenza A (H1N1) pdm09, Influenza A (H3N2), Influenza B, Measles virus.
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23978
+Total tokens in the prompt according to GPT-3 tokenizer: 8558
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6743-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23843
+Total tokens in the prompt according to GPT-3 tokenizer: 10318
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6744-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21693
+Total tokens in the prompt according to GPT-3 tokenizer: 11289
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6745-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20755
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6746-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21590
+Total tokens in the prompt according to GPT-3 tokenizer: 13363
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6747-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21643
+Total tokens in the prompt according to GPT-3 tokenizer: 1453
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6748-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22619
+Total tokens in the prompt according to GPT-3 tokenizer: 4445
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6749-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Influenza virus
+Total tokens in the prompt according to GPT-3 tokenizer: 22505
+Total tokens in the prompt according to GPT-3 tokenizer: 10136
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6750-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21916
+Total tokens in the prompt according to GPT-3 tokenizer: 13288
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm675152-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21237
+Total tokens in the prompt according to GPT-3 tokenizer: 3647
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6801-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22363
+Total tokens in the prompt according to GPT-3 tokenizer: 2220
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6802-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24824
+Total tokens in the prompt according to GPT-3 tokenizer: 12615
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6803-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22776
+Total tokens in the prompt according to GPT-3 tokenizer: 735
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6804-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22028
+Total tokens in the prompt according to GPT-3 tokenizer: 4804
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6805-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Influenza virus, Poliovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 22679
+Total tokens in the prompt according to GPT-3 tokenizer: 21394
+Total tokens in the prompt according to GPT-3 tokenizer: 11539
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6806-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2)
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20612
+Total tokens in the prompt according to GPT-3 tokenizer: 368
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6807-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21153
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6808-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22364
+Total tokens in the prompt according to GPT-3 tokenizer: 7917
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6809-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Ebola virus
+Total tokens in the prompt according to GPT-3 tokenizer: 22794
+Total tokens in the prompt according to GPT-3 tokenizer: 1423
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6810-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19751
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6811-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15745
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6812-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23054
+Total tokens in the prompt according to GPT-3 tokenizer: 4987
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6813-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15830
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6814-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22496
+Total tokens in the prompt according to GPT-3 tokenizer: 4966
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6815-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15820
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6816-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 26014
+Total tokens in the prompt according to GPT-3 tokenizer: 15559
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6817-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20505
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6818-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19928
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6819-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15522
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6820-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19973
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6821-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22882
+Total tokens in the prompt according to GPT-3 tokenizer: 6548
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6822-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22806
+Total tokens in the prompt according to GPT-3 tokenizer: 1137
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6823-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24535
+Total tokens in the prompt according to GPT-3 tokenizer: 7039
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6824-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Influenza virus
+Total tokens in the prompt according to GPT-3 tokenizer: 15753
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6825-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21277
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6826-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22410
+Total tokens in the prompt according to GPT-3 tokenizer: 4898
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6827-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Toxigenic Corynebacterium ulcerans
+Total tokens in the prompt according to GPT-3 tokenizer: 20268
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6828-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15118
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6829-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20771
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6830-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21277
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6831-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 18526
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6832-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23013
+Total tokens in the prompt according to GPT-3 tokenizer: 5451
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6833-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21970
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6834-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19930
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6835-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19872
+Total tokens in the prompt according to GPT-3 tokenizer: 973
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6836-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 12056
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6837-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20883
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6838-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22867
+Total tokens in the prompt according to GPT-3 tokenizer: 20599
+Total tokens in the prompt according to GPT-3 tokenizer: 483
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6839-H.txt*************
+POTENTIAL RISKS: Ebola virus
+POTENTIAL RISKS: Ebola virus
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22385
+Total tokens in the prompt according to GPT-3 tokenizer: 13174
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6840-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Influenza virus
+Total tokens in the prompt according to GPT-3 tokenizer: 22034
+Total tokens in the prompt according to GPT-3 tokenizer: 16157
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6841-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21753
+Total tokens in the prompt according to GPT-3 tokenizer: 3211
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6842-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24105
+Total tokens in the prompt according to GPT-3 tokenizer: 17890
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6843-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20886
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6844-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24259
+Total tokens in the prompt according to GPT-3 tokenizer: 17004
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6845-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 26660
+Total tokens in the prompt according to GPT-3 tokenizer: 23321
+Total tokens in the prompt according to GPT-3 tokenizer: 15989
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6846-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 15255
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6847-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22309
+Total tokens in the prompt according to GPT-3 tokenizer: 1060
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6848-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23801
+Total tokens in the prompt according to GPT-3 tokenizer: 4641
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6849-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19533
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6850-H.txt*************
+POTENTIAL RISKS: Ebola virus
+Total tokens in the prompt according to GPT-3 tokenizer: 24033
+Total tokens in the prompt according to GPT-3 tokenizer: 8622
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm685152-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 8052
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6853-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 19961
+Total tokens in the prompt according to GPT-3 tokenizer: 592
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6901-H.txt*************
+POTENTIAL RISKS: Ebola virus, Candida auris
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23491
+Total tokens in the prompt according to GPT-3 tokenizer: 14445
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6902-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Influenza B viruses
+Total tokens in the prompt according to GPT-3 tokenizer: 22692
+Total tokens in the prompt according to GPT-3 tokenizer: 22012
+Total tokens in the prompt according to GPT-3 tokenizer: 5544
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6903-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21430
+Total tokens in the prompt according to GPT-3 tokenizer: 4005
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6904-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21174
+Total tokens in the prompt according to GPT-3 tokenizer: 11086
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6905-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21006
+Total tokens in the prompt according to GPT-3 tokenizer: 10309
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6906-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24762
+Total tokens in the prompt according to GPT-3 tokenizer: 7603
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6907-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21281
+Total tokens in the prompt according to GPT-3 tokenizer: 4647
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6908-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20768
+Total tokens in the prompt according to GPT-3 tokenizer: 7465
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6909-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Yersinia pestis
+Total tokens in the prompt according to GPT-3 tokenizer: 23236
+Total tokens in the prompt according to GPT-3 tokenizer: 8207
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6910-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24939
+Total tokens in the prompt according to GPT-3 tokenizer: 21149
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6911-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22819
+Total tokens in the prompt according to GPT-3 tokenizer: 21750
+Total tokens in the prompt according to GPT-3 tokenizer: 3236
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6912-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24614
+Total tokens in the prompt according to GPT-3 tokenizer: 16560
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6913-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22934
+Total tokens in the prompt according to GPT-3 tokenizer: 20564
+Total tokens in the prompt according to GPT-3 tokenizer: 723
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6914-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22975
+Total tokens in the prompt according to GPT-3 tokenizer: 22533
+Total tokens in the prompt according to GPT-3 tokenizer: 14153
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6915-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 16816
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6916-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21945
+Total tokens in the prompt according to GPT-3 tokenizer: 2062
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6917-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24382
+Total tokens in the prompt according to GPT-3 tokenizer: 14202
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6918-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22418
+Total tokens in the prompt according to GPT-3 tokenizer: 21439
+Total tokens in the prompt according to GPT-3 tokenizer: 9854
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6919-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22591
+Total tokens in the prompt according to GPT-3 tokenizer: 7904
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6920-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20309
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6921-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23178
+Total tokens in the prompt according to GPT-3 tokenizer: 13989
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6922-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22398
+Total tokens in the prompt according to GPT-3 tokenizer: 16570
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6923-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22865
+Total tokens in the prompt according to GPT-3 tokenizer: 24671
+Total tokens in the prompt according to GPT-3 tokenizer: 3346
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6924-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22059
+Total tokens in the prompt according to GPT-3 tokenizer: 20801
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6925-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20068
+Total tokens in the prompt according to GPT-3 tokenizer: 21528
+Total tokens in the prompt according to GPT-3 tokenizer: 7100
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6926-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23193
+Total tokens in the prompt according to GPT-3 tokenizer: 23671
+Total tokens in the prompt according to GPT-3 tokenizer: 6605
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6927-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20897
+Total tokens in the prompt according to GPT-3 tokenizer: 22919
+Total tokens in the prompt according to GPT-3 tokenizer: 14108
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6928-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21724
+Total tokens in the prompt according to GPT-3 tokenizer: 17562
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6929-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22787
+Total tokens in the prompt according to GPT-3 tokenizer: 9562
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6930-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21958
+Total tokens in the prompt according to GPT-3 tokenizer: 19803
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6931-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22517
+Total tokens in the prompt according to GPT-3 tokenizer: 24020
+Total tokens in the prompt according to GPT-3 tokenizer: 22152
+Total tokens in the prompt according to GPT-3 tokenizer: 7847
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6932-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22731
+Total tokens in the prompt according to GPT-3 tokenizer: 21457
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6933-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22940
+Total tokens in the prompt according to GPT-3 tokenizer: 21564
+Total tokens in the prompt according to GPT-3 tokenizer: 1864
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6934-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21985
+Total tokens in the prompt according to GPT-3 tokenizer: 23052
+Total tokens in the prompt according to GPT-3 tokenizer: 8225
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6935-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23367
+Total tokens in the prompt according to GPT-3 tokenizer: 23010
+Total tokens in the prompt according to GPT-3 tokenizer: 11622
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6936-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21478
+Total tokens in the prompt according to GPT-3 tokenizer: 22455
+Total tokens in the prompt according to GPT-3 tokenizer: 22210
+Total tokens in the prompt according to GPT-3 tokenizer: 594
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6937-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 25454
+Total tokens in the prompt according to GPT-3 tokenizer: 22377
+Total tokens in the prompt according to GPT-3 tokenizer: 12683
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6938-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21785
+Total tokens in the prompt according to GPT-3 tokenizer: 21783
+Total tokens in the prompt according to GPT-3 tokenizer: 17891
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6939-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 26307
+Total tokens in the prompt according to GPT-3 tokenizer: 22841
+Total tokens in the prompt according to GPT-3 tokenizer: 932
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6940-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 25111
+Total tokens in the prompt according to GPT-3 tokenizer: 17928
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6941-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22631
+Total tokens in the prompt according to GPT-3 tokenizer: 22669
+Total tokens in the prompt according to GPT-3 tokenizer: 13540
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6942-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20881
+Total tokens in the prompt according to GPT-3 tokenizer: 23621
+Total tokens in the prompt according to GPT-3 tokenizer: 21243
+Total tokens in the prompt according to GPT-3 tokenizer: 2957
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6943-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22472
+Total tokens in the prompt according to GPT-3 tokenizer: 24261
+Total tokens in the prompt according to GPT-3 tokenizer: 14787
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6944-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22924
+Total tokens in the prompt according to GPT-3 tokenizer: 22156
+Total tokens in the prompt according to GPT-3 tokenizer: 12390
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6945-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23168
+Total tokens in the prompt according to GPT-3 tokenizer: 23652
+Total tokens in the prompt according to GPT-3 tokenizer: 5968
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6946-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21847
+Total tokens in the prompt according to GPT-3 tokenizer: 20645
+Total tokens in the prompt according to GPT-3 tokenizer: 6347
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6947-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23531
+Total tokens in the prompt according to GPT-3 tokenizer: 22114
+Total tokens in the prompt according to GPT-3 tokenizer: 3118
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6948-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21967
+Total tokens in the prompt according to GPT-3 tokenizer: 20089
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6949-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23230
+Total tokens in the prompt according to GPT-3 tokenizer: 23187
+Total tokens in the prompt according to GPT-3 tokenizer: 23288
+Total tokens in the prompt according to GPT-3 tokenizer: 4080
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6950-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22147
+Total tokens in the prompt according to GPT-3 tokenizer: 16339
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm695152-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 5843
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6953a1-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21934
+Total tokens in the prompt according to GPT-3 tokenizer: 8721
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7001-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21940
+Total tokens in the prompt according to GPT-3 tokenizer: 19089
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7002-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24876
+Total tokens in the prompt according to GPT-3 tokenizer: 22494
+Total tokens in the prompt according to GPT-3 tokenizer: 7839
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7003-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20864
+Total tokens in the prompt according to GPT-3 tokenizer: 18091
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7004-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22553
+Total tokens in the prompt according to GPT-3 tokenizer: 20839
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7005-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21893
+Total tokens in the prompt according to GPT-3 tokenizer: 22586
+Total tokens in the prompt according to GPT-3 tokenizer: 3126
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7006-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23034
+Total tokens in the prompt according to GPT-3 tokenizer: 17814
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7007-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22875
+Total tokens in the prompt according to GPT-3 tokenizer: 17552
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7008-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22931
+Total tokens in the prompt according to GPT-3 tokenizer: 21239
+Total tokens in the prompt according to GPT-3 tokenizer: 2866
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7009-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22523
+Total tokens in the prompt according to GPT-3 tokenizer: 15681
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7010-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23060
+Total tokens in the prompt according to GPT-3 tokenizer: 24428
+Total tokens in the prompt according to GPT-3 tokenizer: 4510
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7011-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23551
+Total tokens in the prompt according to GPT-3 tokenizer: 21413
+Total tokens in the prompt according to GPT-3 tokenizer: 15221
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7012-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23942
+Total tokens in the prompt according to GPT-3 tokenizer: 22187
+Total tokens in the prompt according to GPT-3 tokenizer: 10476
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7013-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21824
+Total tokens in the prompt according to GPT-3 tokenizer: 16355
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7014-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22230
+Total tokens in the prompt according to GPT-3 tokenizer: 19802
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7015-H.txt*************
+FINAL ANSWER: None
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20823
+Total tokens in the prompt according to GPT-3 tokenizer: 6069
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7016-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 21465
+Total tokens in the prompt according to GPT-3 tokenizer: 20467
+Total tokens in the prompt according to GPT-3 tokenizer: 22871
+Total tokens in the prompt according to GPT-3 tokenizer: 1271
+Total tokens in the prompt according to GPT-3 tokenizer: 23415
+Total tokens in the prompt according to GPT-3 tokenizer: 22543
+Total tokens in the prompt according to GPT-3 tokenizer: 21531
+Total tokens in the prompt according to GPT-3 tokenizer: 22742
+Total tokens in the prompt according to GPT-3 tokenizer: 21113
+Total tokens in the prompt according to GPT-3 tokenizer: 23703
+Total tokens in the prompt according to GPT-3 tokenizer: 23526
+Total tokens in the prompt according to GPT-3 tokenizer: 23387
+Total tokens in the prompt according to GPT-3 tokenizer: 22305
+Total tokens in the prompt according to GPT-3 tokenizer: 21527
+Total tokens in the prompt according to GPT-3 tokenizer: 22444
+Total tokens in the prompt according to GPT-3 tokenizer: 13170
+Total tokens in the prompt according to GPT-3 tokenizer: 21858
+Total tokens in the prompt according to GPT-3 tokenizer: 14900
+Total tokens in the prompt according to GPT-3 tokenizer: 22387
+Total tokens in the prompt according to GPT-3 tokenizer: 19019
+Total tokens in the prompt according to GPT-3 tokenizer: 23884
+Total tokens in the prompt according to GPT-3 tokenizer: 22625
+Total tokens in the prompt according to GPT-3 tokenizer: 22205
+Total tokens in the prompt according to GPT-3 tokenizer: 22272
+Total tokens in the prompt according to GPT-3 tokenizer: 22969
+Total tokens in the prompt according to GPT-3 tokenizer: 22828
+Total tokens in the prompt according to GPT-3 tokenizer: 23785
+Total tokens in the prompt according to GPT-3 tokenizer: 25217
+Total tokens in the prompt according to GPT-3 tokenizer: 24484
+Total tokens in the prompt according to GPT-3 tokenizer: 21075
+Total tokens in the prompt according to GPT-3 tokenizer: 21639
+Total tokens in the prompt according to GPT-3 tokenizer: 21873
+Total tokens in the prompt according to GPT-3 tokenizer: 21858
+Total tokens in the prompt according to GPT-3 tokenizer: 23059
+Total tokens in the prompt according to GPT-3 tokenizer: 22629
+Total tokens in the prompt according to GPT-3 tokenizer: 24520
+Total tokens in the prompt according to GPT-3 tokenizer: 22956
+Total tokens in the prompt according to GPT-3 tokenizer: 23551
+Total tokens in the prompt according to GPT-3 tokenizer: 28764
+Total tokens in the prompt according to GPT-3 tokenizer: 21218
+Total tokens in the prompt according to GPT-3 tokenizer: 21361
+Total tokens in the prompt according to GPT-3 tokenizer: 23846
+Total tokens in the prompt according to GPT-3 tokenizer: 24123
+Total tokens in the prompt according to GPT-3 tokenizer: 22777
+Total tokens in the prompt according to GPT-3 tokenizer: 21928
+Total tokens in the prompt according to GPT-3 tokenizer: 337
+Total tokens in the prompt according to GPT-3 tokenizer: 23484
+Total tokens in the prompt according to GPT-3 tokenizer: 22229
+Total tokens in the prompt according to GPT-3 tokenizer: 23732
+Total tokens in the prompt according to GPT-3 tokenizer: 23611
+Total tokens in the prompt according to GPT-3 tokenizer: 21982
+Total tokens in the prompt according to GPT-3 tokenizer: 22691
+Total tokens in the prompt according to GPT-3 tokenizer: 22631
+Total tokens in the prompt according to GPT-3 tokenizer: 21745
+Total tokens in the prompt according to GPT-3 tokenizer: 23302
+Total tokens in the prompt according to GPT-3 tokenizer: 21435
+Total tokens in the prompt according to GPT-3 tokenizer: 23743
+Total tokens in the prompt according to GPT-3 tokenizer: 23619
+Total tokens in the prompt according to GPT-3 tokenizer: 22447
+Total tokens in the prompt according to GPT-3 tokenizer: 21626
+Total tokens in the prompt according to GPT-3 tokenizer: 23989
+Total tokens in the prompt according to GPT-3 tokenizer: 21557
+Total tokens in the prompt according to GPT-3 tokenizer: 23103
+Total tokens in the prompt according to GPT-3 tokenizer: 22267
+Total tokens in the prompt according to GPT-3 tokenizer: 20362
+Total tokens in the prompt according to GPT-3 tokenizer: 23424
+Total tokens in the prompt according to GPT-3 tokenizer: 23753
+Total tokens in the prompt according to GPT-3 tokenizer: 23510
+Total tokens in the prompt according to GPT-3 tokenizer: 22415
+Total tokens in the prompt according to GPT-3 tokenizer: 21393
+Total tokens in the prompt according to GPT-3 tokenizer: 21518
+Total tokens in the prompt according to GPT-3 tokenizer: 22810
+Total tokens in the prompt according to GPT-3 tokenizer: 23017
+Total tokens in the prompt according to GPT-3 tokenizer: 21436
+Total tokens in the prompt according to GPT-3 tokenizer: 23754
+Total tokens in the prompt according to GPT-3 tokenizer: 20901
+Total tokens in the prompt according to GPT-3 tokenizer: 21636
+Total tokens in the prompt according to GPT-3 tokenizer: 22800
+Total tokens in the prompt according to GPT-3 tokenizer: 22749
+Total tokens in the prompt according to GPT-3 tokenizer: 23655
+Total tokens in the prompt according to GPT-3 tokenizer: 23169
+Total tokens in the prompt according to GPT-3 tokenizer: 23054
+Total tokens in the prompt according to GPT-3 tokenizer: 22977
+Total tokens in the prompt according to GPT-3 tokenizer: 22119
+Total tokens in the prompt according to GPT-3 tokenizer: 17968
+Total tokens in the prompt according to GPT-3 tokenizer: 22944
+Total tokens in the prompt according to GPT-3 tokenizer: 22374
+Total tokens in the prompt according to GPT-3 tokenizer: 23446
+Total tokens in the prompt according to GPT-3 tokenizer: 24367
+Total tokens in the prompt according to GPT-3 tokenizer: 18562
+Total tokens in the prompt according to GPT-3 tokenizer: 21330
+Total tokens in the prompt according to GPT-3 tokenizer: 22509
+Total tokens in the prompt according to GPT-3 tokenizer: 20707
+Total tokens in the prompt according to GPT-3 tokenizer: 22284
+Total tokens in the prompt according to GPT-3 tokenizer: 22770
+Total tokens in the prompt according to GPT-3 tokenizer: 22652
+Total tokens in the prompt according to GPT-3 tokenizer: 22811
+Total tokens in the prompt according to GPT-3 tokenizer: 18935
+Total tokens in the prompt according to GPT-3 tokenizer: 21280
+Total tokens in the prompt according to GPT-3 tokenizer: 25912
+Total tokens in the prompt according to GPT-3 tokenizer: 23260
+Total tokens in the prompt according to GPT-3 tokenizer: 21413
+Total tokens in the prompt according to GPT-3 tokenizer: 21600
+Total tokens in the prompt according to GPT-3 tokenizer: 22771
+Total tokens in the prompt according to GPT-3 tokenizer: 23358
+Total tokens in the prompt according to GPT-3 tokenizer: 24046
+Total tokens in the prompt according to GPT-3 tokenizer: 22368
+Total tokens in the prompt according to GPT-3 tokenizer: 23356
+Total tokens in the prompt according to GPT-3 tokenizer: 23449
+Total tokens in the prompt according to GPT-3 tokenizer: 24265
+Total tokens in the prompt according to GPT-3 tokenizer: 23385
+Total tokens in the prompt according to GPT-3 tokenizer: 21589
+Total tokens in the prompt according to GPT-3 tokenizer: 23145
+Total tokens in the prompt according to GPT-3 tokenizer: 23161
+Total tokens in the prompt according to GPT-3 tokenizer: 22776
+Total tokens in the prompt according to GPT-3 tokenizer: 26516
+Total tokens in the prompt according to GPT-3 tokenizer: 21463
+Total tokens in the prompt according to GPT-3 tokenizer: 24083
+Total tokens in the prompt according to GPT-3 tokenizer: 22674
+Total tokens in the prompt according to GPT-3 tokenizer: 22113
+Total tokens in the prompt according to GPT-3 tokenizer: 17711
+Total tokens in the prompt according to GPT-3 tokenizer: 22453
+Total tokens in the prompt according to GPT-3 tokenizer: 22956
+Total tokens in the prompt according to GPT-3 tokenizer: 23161
+Total tokens in the prompt according to GPT-3 tokenizer: 23725
+Total tokens in the prompt according to GPT-3 tokenizer: 21753
+Total tokens in the prompt according to GPT-3 tokenizer: 20917
+Total tokens in the prompt according to GPT-3 tokenizer: 24880
+Total tokens in the prompt according to GPT-3 tokenizer: 22155
+Total tokens in the prompt according to GPT-3 tokenizer: 23459
+Total tokens in the prompt according to GPT-3 tokenizer: 22925
+Total tokens in the prompt according to GPT-3 tokenizer: 21233
+Total tokens in the prompt according to GPT-3 tokenizer: 19299
+Total tokens in the prompt according to GPT-3 tokenizer: 24768
+Total tokens in the prompt according to GPT-3 tokenizer: 22977
+Total tokens in the prompt according to GPT-3 tokenizer: 23387
+Total tokens in the prompt according to GPT-3 tokenizer: 13655
+Total tokens in the prompt according to GPT-3 tokenizer: 22920
