@@ -1,0 +1,1661 @@
+Total tokens in the prompt according to GPT-3 tokenizer: 22779
+Total tokens in the prompt according to GPT-3 tokenizer: 22436
+Total tokens in the prompt according to GPT-3 tokenizer: 7037
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6643-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Fentanyl, Fentanyl Analogs, U-47700, Rotavirus, Poliovirus, Cyanobacteria, Harmful Algal Blooms (HABs)
+POTENTIAL RISKS: Fentanyl analogs, specifically carfentanil.
+Total tokens in the prompt according to GPT-3 tokenizer: 22826
+Total tokens in the prompt according to GPT-3 tokenizer: 15640
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6644-H.txt*************
+POTENTIAL RISKS: Legionella, Cryptosporidium.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 30209
+Total tokens in the prompt according to GPT-3 tokenizer: 18929
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6646-H.txt*************
+POTENTIAL RISKS: Measles, Poliomyelitis
+Total tokens in the prompt according to GPT-3 tokenizer: 22805
+Total tokens in the prompt according to GPT-3 tokenizer: 11622
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6647-H.txt*************
+POTENTIAL RISKS: HIV, Poliovirus, Synthetic Cannabinoids
+POTENTIAL RISKS: Mumps
+Total tokens in the prompt according to GPT-3 tokenizer: 20286
+Total tokens in the prompt according to GPT-3 tokenizer: 9255
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6648-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2), Dracunculiasis (Guinea worm disease)
+POTENTIAL RISKS: Dracunculiasis (Guinea worm disease), Polio, Measles.
+Total tokens in the prompt according to GPT-3 tokenizer: 20911
+Total tokens in the prompt according to GPT-3 tokenizer: 6464
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6649-H.txt*************
+POTENTIAL RISKS: Neisseria meningitidis Serogroup C, Zika Virus, Poliovirus
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23346
+Total tokens in the prompt according to GPT-3 tokenizer: 4035
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6650-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Tuberculosis (TB)
+Total tokens in the prompt according to GPT-3 tokenizer: 23890
+Total tokens in the prompt according to GPT-3 tokenizer: 3656
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm665152-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Carbapenemase-Producing Carbapenem-Resistant Enterobacteriaceae (CP-CRE), Zika virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 24399
+Total tokens in the prompt according to GPT-3 tokenizer: 22286
+Total tokens in the prompt according to GPT-3 tokenizer: 22791
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6701-H.txt*************
+POTENTIAL RISKS: West Nile virus, La Crosse virus, Powassan virus, Jamestown Canyon virus, St. Louis encephalitis virus, eastern 
+equine encephalitis virus.
+POTENTIAL RISKS: Mumps, HIV, West Nile virus, Arboviral diseases, Urinary Tract Infections.
+FINAL ANSWER: Mumps
+Total tokens in the prompt according to GPT-3 tokenizer: 22923
+Total tokens in the prompt according to GPT-3 tokenizer: 13412
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6702-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Legionella, Baylisascaris procyonis, Respiratory Syncytial Virus (RSV)
+Total tokens in the prompt according to GPT-3 tokenizer: 23828
+Total tokens in the prompt according to GPT-3 tokenizer: 18997
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6703-H.txt*************
+POTENTIAL RISKS: Zika virus.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 22976
+Total tokens in the prompt according to GPT-3 tokenizer: 10159
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6704-H.txt*************
+POTENTIAL RISKS: HIV, Seoul Virus
+POTENTIAL RISKS: Seoul Virus, Hantavirus
+Total tokens in the prompt according to GPT-3 tokenizer: 21915
+Total tokens in the prompt according to GPT-3 tokenizer: 10492
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6705-H.txt*************
+POTENTIAL RISKS: Fluoroquinolone-Resistant Campylobacter jejuni, Measles, Mumps
+POTENTIAL RISKS: Rabies, Mumps
+Total tokens in the prompt according to GPT-3 tokenizer: 22383
+Total tokens in the prompt according to GPT-3 tokenizer: 19731
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6706-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2), Influenza A (H1N1) pdm09, Influenza B.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 24098
+Total tokens in the prompt according to GPT-3 tokenizer: 23050
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6707-H.txt*************
+POTENTIAL RISKS: HIV, Amyotrophic Lateral Sclerosis (ALS)
+POTENTIAL RISKS: Hepatitis B, Seoul Virus
+Total tokens in the prompt according to GPT-3 tokenizer: 21069
+Total tokens in the prompt according to GPT-3 tokenizer: 8672
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6708-H.txt*************
+POTENTIAL RISKS: Trichinella, Poliovirus, Rabies
+POTENTIAL RISKS: Poliovirus, HIV
+Total tokens in the prompt according to GPT-3 tokenizer: 21129
+Total tokens in the prompt according to GPT-3 tokenizer: 4616
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6709-H.txt*************
+POTENTIAL RISKS: Zika virus, Opioid-related overdoses, Creutzfeldt-Jakob disease
+POTENTIAL RISKS: Brucella abortus, Opioid-related overdose outbreak
+Total tokens in the prompt according to GPT-3 tokenizer: 23770
+Total tokens in the prompt according to GPT-3 tokenizer: 10209
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6710-H.txt*************
+POTENTIAL RISKS: Poliovirus, Monkeypox
+POTENTIAL RISKS: Monkeypox, Poliovirus, Rabies
+Total tokens in the prompt according to GPT-3 tokenizer: 21946
+Total tokens in the prompt according to GPT-3 tokenizer: 10762
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6711-H.txt*************
+POTENTIAL RISKS: Salmonella, Shiga toxin-producing Escherichia coli (STEC), Cyclospora, Yersinia, Vibrio, Listeria, Tuberculosis 
+(TB), Influenza, Leptospirosis.
+POTENTIAL RISKS: Yellow Fever, Typhoid Fever
+Total tokens in the prompt according to GPT-3 tokenizer: 24869
+Total tokens in the prompt according to GPT-3 tokenizer: 11818
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6712-H.txt*************
+POTENTIAL RISKS: Diabetic Ketoacidosis, Type 1 Diabetes, Type 2 Diabetes, Opioid Overdose Epidemic, Synthetic Opioids, Heroin, 
+Cocaine, Psychostimulants
+POTENTIAL RISKS: Nontuberculous Mycobacteria (NTM), Human Adenovirus Type 7 (HAdV-7)
+Total tokens in the prompt according to GPT-3 tokenizer: 22782
+Total tokens in the prompt according to GPT-3 tokenizer: 14727
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6713-H.txt*************
+FINAL ANSWER: None.
+POTENTIAL RISKS: Carbapenem-resistant Enterobacteriaceae (CRE), Carbapenem-resistant Pseudomonas aeruginosa (CRPA)
+Total tokens in the prompt according to GPT-3 tokenizer: 22054
+Total tokens in the prompt according to GPT-3 tokenizer: 9207
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6714-H.txt*************
+POTENTIAL RISKS: Wild Poliovirus, Circulating Vaccine-Derived Poliovirus, Metam Sodium Poisoning
+FINAL ANSWER: Malaria
+Total tokens in the prompt according to GPT-3 tokenizer: 21740
+Total tokens in the prompt according to GPT-3 tokenizer: 10152
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6715-H.txt*************
+POTENTIAL RISKS: Salmonella Newport
+POTENTIAL RISKS: Candida auris, Hepatitis B
+Total tokens in the prompt according to GPT-3 tokenizer: 18257
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6716-H.txt*************
+POTENTIAL RISKS: Rotavirus, Rabies
+Total tokens in the prompt according to GPT-3 tokenizer: 22370
+Total tokens in the prompt according to GPT-3 tokenizer: 5055
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6717-H.txt*************
+POTENTIAL RISKS: Measles, West Nile virus, Dengue, Chikungunya, Zika virus, Lyme disease, Rocky Mountain spotted fever, Plague, 
+Babesiosis, Anaplasmosis/Ehrlichiosis, Powassan virus, Eastern equine encephalitis virus, St. Louis encephalitis virus, Yellow 
+fever virus.
+POTENTIAL RISKS: Hepatitis A, Salmonella Oranienburg, Zika virus, Lyme disease, West Nile virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 22898
+Total tokens in the prompt according to GPT-3 tokenizer: 10716
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6718-H.txt*************
+POTENTIAL RISKS: Poliovirus, Enterovirus D68, Circulating vaccine-derived poliovirus type 2 (cVDPV2)
+POTENTIAL RISKS: Hepatitis C, Diphtheria, Cholera
+Total tokens in the prompt according to GPT-3 tokenizer: 21864
+Total tokens in the prompt according to GPT-3 tokenizer: 5245
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6719-H.txt*************
+POTENTIAL RISKS: Vibrio cholerae, Cryptosporidium, Legionella, Pseudomonas, Hepatitis B virus (HBV), Hepatitis A virus (HAV), HIV.
+POTENTIAL RISKS: Cholera, Salmonella Paratyphi B variant L (+) tartrate + (Java)
+Total tokens in the prompt according to GPT-3 tokenizer: 22026
+Total tokens in the prompt according to GPT-3 tokenizer: 3477
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6720-H.txt*************
+FINAL ANSWER:
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23160
+Total tokens in the prompt according to GPT-3 tokenizer: 4786
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6721-H.txt*************
+POTENTIAL RISKS: Brodifacoum-contaminated synthetic cannabinoids, Rubella, Congenital Rubella Syndrome.
+POTENTIAL RISKS: Cyclospora cayetanensis, Verona integron-encoded metallo-beta-lactamase (VIM) producing Pseudomonas aeruginosa.
+Total tokens in the prompt according to GPT-3 tokenizer: 23864
+Total tokens in the prompt according to GPT-3 tokenizer: 18714
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6722-H.txt*************
+POTENTIAL RISKS: Methicillin-Resistant Staphylococcus aureus (MRSA), Influenza.
+POTENTIAL RISKS: Influenza A (H3N2), Influenza A (H1N1) pdm09, Crimean-Congo Hemorrhagic Fever (CCHF)
+Total tokens in the prompt according to GPT-3 tokenizer: 22390
+Total tokens in the prompt according to GPT-3 tokenizer: 2328
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6723-H.txt*************
+POTENTIAL RISKS: E. coli O157:H7, Carbapenemase-producing carbapenem-resistant Enterobacteriaceae (CP-CRE), Tuberculosis
+POTENTIAL RISKS: Tuberculosis
+Total tokens in the prompt according to GPT-3 tokenizer: 21213
+Total tokens in the prompt according to GPT-3 tokenizer: 3057
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6724-H.txt*************
+POTENTIAL RISKS: Circulating Vaccine-Derived Poliovirus Type 2 (cVDPV2)
+POTENTIAL RISKS: Circulating Vaccine-Derived Poliovirus type 2 (cVDPV2)
+Total tokens in the prompt according to GPT-3 tokenizer: 23777
+Total tokens in the prompt according to GPT-3 tokenizer: 12742
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6725-H.txt*************
+POTENTIAL RISKS: Clostridium perfringens, Klebsiella pneumoniae
+POTENTIAL RISKS: Klebsiella pneumoniae, Clostridium perfringens, Verona integron-mediated metallo--lactamase-producing 
+Enterobacteriaceae (VIM-CRE)
+Total tokens in the prompt according to GPT-3 tokenizer: 18510
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6726-H.txt*************
+POTENTIAL RISKS: Brucella abortus RB51, Chagas disease, Measles, Rubella
+Total tokens in the prompt according to GPT-3 tokenizer: 22585
+Total tokens in the prompt according to GPT-3 tokenizer: 934
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6727-H.txt*************
+POTENTIAL RISKS: Fentanyl, Fentanyl Analogs, Carfentanil, Tianeptine
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20175
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6728-H.txt*************
+POTENTIAL RISKS: Circulating Vaccine-Derived Poliovirus (cVDPV2), Circulating Vaccine-Derived Poliovirus (cVDPV3), Hepatitis B 
+virus (HBV), Human Immunodeficiency Virus (HIV)
+Total tokens in the prompt according to GPT-3 tokenizer: 18015
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6729-H.txt*************
+POTENTIAL RISKS: Mumps
+Total tokens in the prompt according to GPT-3 tokenizer: 23176
+Total tokens in the prompt according to GPT-3 tokenizer: 15302
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6730-H.txt*************
+POTENTIAL RISKS: Angiostrongylus cantonensis (Rat Lungworm), Tianeptine misuse and associated withdrawal symptoms, Coal Workers 
+Pneumoconiosis (CWP)
+POTENTIAL RISKS: Angiostrongylus cantonensis, Wild Poliovirus Type 1 (WPV1), Vibrio cholerae O141
+Total tokens in the prompt according to GPT-3 tokenizer: 22314
+Total tokens in the prompt according to GPT-3 tokenizer: 14704
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6731-H.txt*************
+POTENTIAL RISKS: Zika virus, Nontuberculous mycobacteria (NTM), Opioid-related overdoses and deaths.
+POTENTIAL RISKS: Zika virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 24262
+Total tokens in the prompt according to GPT-3 tokenizer: 22685
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6732-H.txt*************
+POTENTIAL RISKS: Meningococcal Disease, Acanthamoeba keratitis, Fusarium keratitis, Pseudomonas aeruginosa, Klebsiella pneumoniae
+POTENTIAL RISKS: Neisseria meningitidis serogroup W (NmW), Zika virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 25856
+Total tokens in the prompt according to GPT-3 tokenizer: 23705
+Total tokens in the prompt according to GPT-3 tokenizer: 2149
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6733-H.txt*************
+POTENTIAL RISKS: HPV, Meningococcal disease, Mumps
+POTENTIAL RISKS: Mumps, Coccidioidomycosis
+POTENTIAL RISKS: Mumps
+Total tokens in the prompt according to GPT-3 tokenizer: 24479
+Total tokens in the prompt according to GPT-3 tokenizer: 5034
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6734-H.txt*************
+POTENTIAL RISKS: Cholera, Opioid-related overdose epidemic
+POTENTIAL RISKS: Cholera, Vibrio anguillarum
+Total tokens in the prompt according to GPT-3 tokenizer: 21870
+Total tokens in the prompt according to GPT-3 tokenizer: 18320
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6735-H.txt*************
+POTENTIAL RISKS: Zika virus, Poliovirus
+POTENTIAL RISKS: Poliovirus, Extensively Drug-Resistant Tuberculosis
+Total tokens in the prompt according to GPT-3 tokenizer: 22902
+Total tokens in the prompt according to GPT-3 tokenizer: 3910
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6736-H.txt*************
+POTENTIAL RISKS: Enterovirus A71, Rubella
+POTENTIAL RISKS: Mumps, Enterovirus 71.
+Total tokens in the prompt according to GPT-3 tokenizer: 23989
+Total tokens in the prompt according to GPT-3 tokenizer: 4489
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6737-H.txt*************
+POTENTIAL RISKS: Multidrug-Resistant Campylobacter jejuni, HIV, Monkeypox
+POTENTIAL RISKS: Monkeypox
+Total tokens in the prompt according to GPT-3 tokenizer: 21440
+Total tokens in the prompt according to GPT-3 tokenizer: 19352
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6738-H.txt*************
+POTENTIAL RISKS: Meningococcal disease serogroup C, Influenza.
+POTENTIAL RISKS: Blastomyces spp., Aspergillus fumigatus, Pertussis
+Total tokens in the prompt according to GPT-3 tokenizer: 21630
+Total tokens in the prompt according to GPT-3 tokenizer: 10072
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6739-H.txt*************
+POTENTIAL RISKS: Salmonella Chailey, Cyclosporiasis, La Crosse Encephalitis, Congenital Syphilis.
+POTENTIAL RISKS: Salmonella Chailey, Cyclospora cayetanensis, La Crosse virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 23248
+Total tokens in the prompt according to GPT-3 tokenizer: 12638
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6740-H.txt*************
+FINAL ANSWER:
+POTENTIAL RISKS: Rubella, Hantavirus, Verona integron-encoded metallo-beta-lactamase-producing carbapenem-resistant Pseudomonas 
+aeruginosa (VIM-CRPA)
+Total tokens in the prompt according to GPT-3 tokenizer: 23103
+Total tokens in the prompt according to GPT-3 tokenizer: 11386
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6741-H.txt*************
+POTENTIAL RISKS: Mumps, West Nile virus, Jamestown Canyon virus, La Crosse virus, Powassan virus, St. Louis encephalitis virus, 
+Eastern equine encephalitis virus, HIV.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 20478
+Total tokens in the prompt according to GPT-3 tokenizer: 10875
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6742-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2) Variant Virus, Measles, Rabies
+POTENTIAL RISKS: Measles, Poliovirus, Salmonella Enteritidis
+Total tokens in the prompt according to GPT-3 tokenizer: 24033
+Total tokens in the prompt according to GPT-3 tokenizer: 8613
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6743-H.txt*************
+POTENTIAL RISKS: Hepatitis A, Hepatitis B, Hepatitis C
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23898
+Total tokens in the prompt according to GPT-3 tokenizer: 10373
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6744-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Poliomyelitis, Coccidioidomycosis, Cronobacter sakazakii
+Total tokens in the prompt according to GPT-3 tokenizer: 21748
+Total tokens in the prompt according to GPT-3 tokenizer: 11344
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6745-H.txt*************
+POTENTIAL RISKS: Dracunculiasis (Guinea worm disease)
+POTENTIAL RISKS: Acute Flaccid Myelitis (AFM), Dracunculiasis (Guinea worm disease)
+Total tokens in the prompt according to GPT-3 tokenizer: 20810
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6746-H.txt*************
+FINAL ANSWER: Norovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 21645
+Total tokens in the prompt according to GPT-3 tokenizer: 13418
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6747-H.txt*************
+POTENTIAL RISKS: Dengue Virus Type 2, Haemaphysalis longicornis-borne diseases (e.g. SFTSV, Heartland virus), HIV/AIDS.
+POTENTIAL RISKS: Dengue virus, Measles virus
+Total tokens in the prompt according to GPT-3 tokenizer: 21698
+Total tokens in the prompt according to GPT-3 tokenizer: 1508
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6748-H.txt*************
+POTENTIAL RISKS: Salmonella Agbeni, Human Adenovirus Type D53, Avian Influenza A (H7N8)
+POTENTIAL RISKS: Salmonella, Salmonella Poona
+Total tokens in the prompt according to GPT-3 tokenizer: 22674
+Total tokens in the prompt according to GPT-3 tokenizer: 4500
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6749-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2), Influenza B.
+POTENTIAL RISKS: Influenza, Zika virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 22560
+Total tokens in the prompt according to GPT-3 tokenizer: 10191
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6750-H.txt*************
+POTENTIAL RISKS: Rabies, Canine Rabies Virus Variant
+POTENTIAL RISKS: HIV, Enterobacter cloacae, Citrobacter freundii, Escherichia coli, Enterococcus faecalis, Proteus mirabilis
+Total tokens in the prompt according to GPT-3 tokenizer: 21971
+Total tokens in the prompt according to GPT-3 tokenizer: 13343
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm675152-H.txt*************
+POTENTIAL RISKS: Rabies, Wound Botulism, Synthetic Opioids-related overdoses.
+POTENTIAL RISKS: Salmonella, Mycobacterium chimaera, Human Immunodeficiency Virus (HIV)
+Total tokens in the prompt according to GPT-3 tokenizer: 21292
+Total tokens in the prompt according to GPT-3 tokenizer: 3702
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6801-H.txt*************
+POTENTIAL RISKS: Extensively Drug-Resistant Salmonella Typhi, Neonatal Abstinence Syndrome, XDR Typhi.
+POTENTIAL RISKS: Respiratory Syncytial Virus (RSV)
+Total tokens in the prompt according to GPT-3 tokenizer: 22418
+Total tokens in the prompt according to GPT-3 tokenizer: 2275
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6802-H.txt*************
+POTENTIAL RISKS: Typhoid Fever, Fentanyl-related overdoses, Tuberculosis
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24879
+Total tokens in the prompt according to GPT-3 tokenizer: 12670
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6803-H.txt*************
+POTENTIAL RISKS: Hepatitis B, Hepatitis C, HIV.
+POTENTIAL RISKS: Listeria monocytogenes
+Total tokens in the prompt according to GPT-3 tokenizer: 22831
+Total tokens in the prompt according to GPT-3 tokenizer: 790
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6804-H.txt*************
+POTENTIAL RISKS: Mumps
+FINAL ANSWER: There are no disease outbreaks mentioned in the text that pose a significant risk of becoming a larger outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 22083
+Total tokens in the prompt according to GPT-3 tokenizer: 4859
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6805-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Circulating Vaccine-Derived Poliovirus Type 1 (cVDPV1)
+Total tokens in the prompt according to GPT-3 tokenizer: 22734
+Total tokens in the prompt according to GPT-3 tokenizer: 21449
+Total tokens in the prompt according to GPT-3 tokenizer: 11594
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6806-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2)
+POTENTIAL RISKS: Hepatitis A, Syphilis
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 20667
+Total tokens in the prompt according to GPT-3 tokenizer: 423
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6807-H.txt*************
+POTENTIAL RISKS: Brucella abortus RB51, Enteroinvasive Escherichia coli (EIEC), Campylobacter jejuni.
+FINAL ANSWER: No disease outbreaks mentioned.
+Total tokens in the prompt according to GPT-3 tokenizer: 21208
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6808-H.txt*************
+POTENTIAL RISKS: Measles, Invasive Group A Streptococcus, Hepatitis B.
+Total tokens in the prompt according to GPT-3 tokenizer: 22419
+Total tokens in the prompt according to GPT-3 tokenizer: 7972
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6809-H.txt*************
+POTENTIAL RISKS: Methicillin-Resistant Staphylococcus aureus (MRSA), Methicillin-Susceptible Staphylococcus aureus (MSSA), 
+Poliovirus (specifically, circulating vaccine-derived poliovirus type 2 (cVDPV2) and type 3 (cVDPV3))
+POTENTIAL RISKS: Poliovirus (cVDPV2 and cVDPV3), Tetanus, Hepatitis A.
+Total tokens in the prompt according to GPT-3 tokenizer: 22849
+Total tokens in the prompt according to GPT-3 tokenizer: 1478
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6810-H.txt*************
+POTENTIAL RISKS: HIV, Botulism, Spotted Fever Rickettsioses, Syphilis
+FINAL ANSWER: HIV/AIDS
+Total tokens in the prompt according to GPT-3 tokenizer: 19806
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6811-H.txt*************
+POTENTIAL RISKS: Tuberculosis, HIV
+Total tokens in the prompt according to GPT-3 tokenizer: 15800
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6812-H.txt*************
+POTENTIAL RISKS: Enterovirus D68, Candida, Colorado Tick Fever Virus, Diphtheria
+Total tokens in the prompt according to GPT-3 tokenizer: 23109
+Total tokens in the prompt according to GPT-3 tokenizer: 5042
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6813-H.txt*************
+POTENTIAL RISKS: Polio, Cyanide Poisoning from Cassava Consumption, Chronic Obstructive Pulmonary Disease (COPD)
+POTENTIAL RISKS: Poliovirus (WPV1), Circulating Vaccine-Derived Poliovirus (cVDPV)
+Total tokens in the prompt according to GPT-3 tokenizer: 15885
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6814-H.txt*************
+POTENTIAL RISKS: Hepatitis A, Coccidioidomycosis (Valley Fever), Kratom-related overdose deaths.
+Total tokens in the prompt according to GPT-3 tokenizer: 22551
+Total tokens in the prompt according to GPT-3 tokenizer: 5021
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6815-H.txt*************
+POTENTIAL RISKS: HIV, Acute Flaccid Myelitis (AFM)
+POTENTIAL RISKS: Enterovirus D68 (EV-D68), Trypanosoma cruzi (Chagas disease)
+Total tokens in the prompt according to GPT-3 tokenizer: 15875
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6816-H.txt*************
+POTENTIAL RISKS: Campylobacter, Salmonella, Cyclospora, Hepatitis C Virus.
+Total tokens in the prompt according to GPT-3 tokenizer: 26069
+Total tokens in the prompt according to GPT-3 tokenizer: 15614
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6817-H.txt*************
+POTENTIAL RISKS: Cocaine and Psychostimulants with Abuse Potential, Measles, Multidrug-Resistant Shigella sonnei, Salmonella.
+POTENTIAL RISKS: Measles, Shigella sonnei, Salmonella enterica
+Total tokens in the prompt according to GPT-3 tokenizer: 20560
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6818-H.txt*************
+POTENTIAL RISKS: Hepatitis A, Hepatitis B, Hepatitis C, Human Immunodeficiency Virus (HIV)
+Total tokens in the prompt according to GPT-3 tokenizer: 19983
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6819-H.txt*************
+POTENTIAL RISKS: Measles, Tuberculosis, Acanthamoeba Keratitis
+Total tokens in the prompt according to GPT-3 tokenizer: 15577
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6820-H.txt*************
+POTENTIAL RISKS: Wild Poliovirus (WPV), Verona integron-encoded metallo- -lactamase-producing carbapenem-resistant Pseudomonas 
+aeruginosa (VIM-CRPA)
+Total tokens in the prompt according to GPT-3 tokenizer: 20028
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6821-H.txt*************
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 22937
+Total tokens in the prompt according to GPT-3 tokenizer: 6603
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6822-H.txt*************
+POTENTIAL RISKS: Measles
+POTENTIAL RISKS: Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 22861
+Total tokens in the prompt according to GPT-3 tokenizer: 1192
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6823-H.txt*************
+POTENTIAL RISKS: Rabies, Acinetobacter calcoaceticus-baumannii complex (ACBC), Staphylococcus saprophyticus
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24590
+Total tokens in the prompt according to GPT-3 tokenizer: 7094
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6824-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2), Rotavirus.
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2), Tuberculosis (TB)
+Total tokens in the prompt according to GPT-3 tokenizer: 15808
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6825-H.txt*************
+POTENTIAL RISKS: Cryptosporidiosis, HIV
+Total tokens in the prompt according to GPT-3 tokenizer: 21332
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6826-H.txt*************
+POTENTIAL RISKS: Measles, Rubella, Influenza, Methicillin-resistant Staphylococcus aureus (MRSA), Group A Streptococcus (GAS), 
+Candida spp.
+Total tokens in the prompt according to GPT-3 tokenizer: 22465
+Total tokens in the prompt according to GPT-3 tokenizer: 4953
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6827-H.txt*************
+POTENTIAL RISKS: Acute Flaccid Myelitis (AFM), Enterovirus D-68 (EV-D68), Enterovirus A-71 (EV-A71)
+POTENTIAL RISKS: Acute Flaccid Myelitis (AFM), Toxigenic Corynebacterium ulcerans.
+Total tokens in the prompt according to GPT-3 tokenizer: 20323
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6828-H.txt*************
+POTENTIAL RISKS: Norovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 15173
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6829-H.txt*************
+POTENTIAL RISKS: Hepatitis C, Poliomyelitis, Circulating Vaccine-Derived Poliovirus Type 2 (cVDPV2)
+Total tokens in the prompt according to GPT-3 tokenizer: 20826
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6830-H.txt*************
+POTENTIAL RISKS: HIV, Candida auris, Carbapenem-resistant Klebsiella pneumoniae (CR-Kp), Carbapenem-resistant Enterobacteriaceae 
+(CRE)
+Total tokens in the prompt according to GPT-3 tokenizer: 21332
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6831-H.txt*************
+POTENTIAL RISKS: West Nile virus, Fentanyl-related overdoses, Arboviruses (including La Crosse virus, Jamestown Canyon virus, 
+Powassan virus, St. Louis encephalitis virus, and eastern equine encephalitis virus)
+Total tokens in the prompt according to GPT-3 tokenizer: 18581
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6832-H.txt*************
+POTENTIAL RISKS: Rabies, Lyme disease
+Total tokens in the prompt according to GPT-3 tokenizer: 23068
+Total tokens in the prompt according to GPT-3 tokenizer: 5506
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6833-H.txt*************
+POTENTIAL RISKS: Salmonella Newport, Poliomyelitis (Wild Poliovirus Type 1)
+POTENTIAL RISKS: Wild Poliovirus Type 1 (WPV1)
+Total tokens in the prompt according to GPT-3 tokenizer: 22025
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6834-H.txt*************
+POTENTIAL RISKS: Mumps, Salmonella Agbeni
+Total tokens in the prompt according to GPT-3 tokenizer: 19985
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6835-H.txt*************
+POTENTIAL RISKS: Hepatitis A, Hantavirus Pulmonary Syndrome
+Total tokens in the prompt according to GPT-3 tokenizer: 19927
+Total tokens in the prompt according to GPT-3 tokenizer: 1028
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6836-H.txt*************
+POTENTIAL RISKS: Measles, Naegleria fowleri, Rabies
+FINAL ANSWER: There are no mentions of infectious disease outbreaks in the provided text. The text primarily discusses suicide 
+rates in the United States and provides information about the Morbidity and Mortality Weekly Report (MMWR) series.
+Total tokens in the prompt according to GPT-3 tokenizer: 12111
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6837-H.txt*************
+POTENTIAL RISKS: HIV, Mycobacterium bovis
+Total tokens in the prompt according to GPT-3 tokenizer: 20938
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6838-H.txt*************
+POTENTIAL RISKS: Poliovirus, Silicosis, Vaccine-derived poliovirus (VDPV) type 2 and 3.
+Total tokens in the prompt according to GPT-3 tokenizer: 22922
+Total tokens in the prompt according to GPT-3 tokenizer: 20654
+Total tokens in the prompt according to GPT-3 tokenizer: 538
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6839-H.txt*************
+POTENTIAL RISKS: Ebola, Hepatitis C, HCV
+POTENTIAL RISKS: Ebola, Rubella, Tetrahydrocannabinol (THC) -containing e-cigarette or vaping products, and Lung Injury associated
+with e-cigarette use.
+FINAL ANSWER: There are no disease outbreaks mentioned in the text that pose a significant risk of becoming a larger outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 22440
+Total tokens in the prompt according to GPT-3 tokenizer: 13229
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6840-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza A (H3N2), Pertussis, HIV.
+POTENTIAL RISKS: Measles, Influenza, Pertussis
+Total tokens in the prompt according to GPT-3 tokenizer: 22089
+Total tokens in the prompt according to GPT-3 tokenizer: 16212
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6841-H.txt*************
+POTENTIAL RISKS: Measles
+POTENTIAL RISKS: EVALI (e-cigarette, or vaping, product use associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 21808
+Total tokens in the prompt according to GPT-3 tokenizer: 3266
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6842-H.txt*************
+POTENTIAL RISKS: E-cigarette or Vaping Product Use-Associated Lung Injury (EVALI), Vaccinia Virus, Hepatitis B Virus (HBV), 
+Hepatitis C Virus (HCV)
+POTENTIAL RISKS: EVALI (e-cigarette, or vaping, product use-associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 24160
+Total tokens in the prompt according to GPT-3 tokenizer: 17945
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6843-H.txt*************
+POTENTIAL RISKS: Opioid-related overdose deaths, Synthetic opioids, Fentanyl, Fentanyl analogs
+POTENTIAL RISKS: Dracunculiasis (Guinea worm disease), EVALI (Electronic-cigarette, or vaping, product use-associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 20941
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6844-H.txt*************
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 24314
+Total tokens in the prompt according to GPT-3 tokenizer: 17059
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6845-H.txt*************
+POTENTIAL RISKS: Poliovirus, Vaccine-Derived Poliovirus (cVDPV)
+POTENTIAL RISKS: Poliovirus (WPV1), Tetrahydrocannabinol (THC)-containing products associated with e-cigarette, or vaping, product
+use-associated lung injury (EVALI)
+Total tokens in the prompt according to GPT-3 tokenizer: 26715
+Total tokens in the prompt according to GPT-3 tokenizer: 23376
+Total tokens in the prompt according to GPT-3 tokenizer: 16044
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6846-H.txt*************
+POTENTIAL RISKS: Salmonella Reading
+POTENTIAL RISKS: Malaria, Pneumococcal disease
+POTENTIAL RISKS: EVALI (e-cigarette, or vaping, product use-associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 15310
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6847-H.txt*************
+POTENTIAL RISKS: Tetrahydrocannabinol (THC)-containing e-cigarette, or vaping, products associated with vitamin E acetate, 
+HIV/AIDS.
+Total tokens in the prompt according to GPT-3 tokenizer: 22364
+Total tokens in the prompt according to GPT-3 tokenizer: 1115
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6848-H.txt*************
+POTENTIAL RISKS: Measles
+FINAL ANSWER: There are no disease outbreaks mentioned in the text that pose a significant risk of becoming a larger outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 23856
+Total tokens in the prompt according to GPT-3 tokenizer: 4696
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6849-H.txt*************
+POTENTIAL RISKS: Tetrahydrocannabinol (THC)-containing e-cigarette, or vaping, products associated lung injury (EVALI), 
+Inflammatory Bowel Disease (IBD), Human Immunodeficiency Virus (HIV)
+POTENTIAL RISKS: Mycobacterium porcinum, E-cigarette or Vaping product use-Associated Lung Injury (EVALI)
+Total tokens in the prompt according to GPT-3 tokenizer: 19588
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6850-H.txt*************
+POTENTIAL RISKS: Ebola, Influenza, Shewanella haliotis
+Total tokens in the prompt according to GPT-3 tokenizer: 24088
+Total tokens in the prompt according to GPT-3 tokenizer: 8677
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm685152-H.txt*************
+POTENTIAL RISKS: E-cigarette or Vaping Product Use-Associated Lung Injury (EVALI), Rickettsial diseases (including Rickettsia 
+parkeri, Rickettsia species 364D, Rickettsia africae, Rickettsia conorii, and Orientia tsutsugamushi).
+POTENTIAL RISKS: EVALI (e-cigarette, or vaping, product use-associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 8107
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6853-H.txt*************
+POTENTIAL RISKS: Gastrointestinal and Respiratory Illnesses.
+Total tokens in the prompt according to GPT-3 tokenizer: 20016
+Total tokens in the prompt according to GPT-3 tokenizer: 647
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6901-H.txt*************
+POTENTIAL RISKS: Ebola, Candida auris.
+FINAL ANSWER: There are no disease outbreaks mentioned in the text that pose a significant risk of becoming a larger outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 23546
+Total tokens in the prompt according to GPT-3 tokenizer: 14500
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6902-H.txt*************
+POTENTIAL RISKS: Influenza B/Victoria virus, HIV.
+POTENTIAL RISKS: Influenza B/Victoria, Eastern Equine Encephalitis Virus (EEEV)
+Total tokens in the prompt according to GPT-3 tokenizer: 22747
+Total tokens in the prompt according to GPT-3 tokenizer: 22067
+Total tokens in the prompt according to GPT-3 tokenizer: 5599
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6903-H.txt*************
+POTENTIAL RISKS: Zika virus, Pertussis, Influenza
+POTENTIAL RISKS: Pertussis, Tetanus, Diphtheria, E-cigarette or Vaping Product Use-Associated Lung Injury (EVALI)
+POTENTIAL RISKS: EVALI (e-cigarette, or vaping, product use-associated lung injury)
+Total tokens in the prompt according to GPT-3 tokenizer: 21485
+Total tokens in the prompt according to GPT-3 tokenizer: 4060
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6904-H.txt*************
+POTENTIAL RISKS: Lyme disease, HIV/AIDS
+POTENTIAL RISKS: Lyme disease, Borrelia burgdorferi, Borrelia miyamotoi
+Total tokens in the prompt according to GPT-3 tokenizer: 21229
+Total tokens in the prompt according to GPT-3 tokenizer: 11141
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6905-H.txt*************
+POTENTIAL RISKS: Carfentanil, Rabies, Hepatitis A, Influenza, Meningococcal disease, Pertussis, Polio, Haemophilus influenzae type
+b, Hepatitis B.
+POTENTIAL RISKS: 2019 Novel Coronavirus (2019-nCoV)
+Total tokens in the prompt according to GPT-3 tokenizer: 21061
+Total tokens in the prompt according to GPT-3 tokenizer: 10364
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6906-H.txt*************
+POTENTIAL RISKS: Dengue Fever, Type 1 and Type 2 Diabetes
+POTENTIAL RISKS: 2019 Novel Coronavirus (2019-nCoV), Carbapenem-resistant Klebsiella pneumoniae with mcr-1 gene.
+Total tokens in the prompt according to GPT-3 tokenizer: 24817
+Total tokens in the prompt according to GPT-3 tokenizer: 7658
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6907-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Influenza B/Victoria.
+POTENTIAL RISKS: Chagas disease
+Total tokens in the prompt according to GPT-3 tokenizer: 21336
+Total tokens in the prompt according to GPT-3 tokenizer: 4702
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6908-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Legionella pneumophila.
+POTENTIAL RISKS: COVID-19, Influenza, Synthetic Cannabinoid-related illnesses
+Total tokens in the prompt according to GPT-3 tokenizer: 20823
+Total tokens in the prompt according to GPT-3 tokenizer: 7520
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6909-H.txt*************
+POTENTIAL RISKS: Pneumonic Plague, E-cigarette or Vaping Product Use-Associated Lung Injury (EVALI)
+POTENTIAL RISKS: SARS-CoV-2, Pneumonic Plague, Herpes B Virus
+Total tokens in the prompt according to GPT-3 tokenizer: 23291
+Total tokens in the prompt according to GPT-3 tokenizer: 8262
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6910-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Carbapenemase-producing Klebsiella pneumoniae (KPC-KP), Fentanyl-related overdose outbreak, Opioid-related 
+overdose outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 24994
+Total tokens in the prompt according to GPT-3 tokenizer: 21204
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6911-H.txt*************
+POTENTIAL RISKS: Tuberculosis, Synthetic Opioids (including Fentanyl), COVID-19
+POTENTIAL RISKS: COVID-19, SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22874
+Total tokens in the prompt according to GPT-3 tokenizer: 21805
+Total tokens in the prompt according to GPT-3 tokenizer: 3291
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6912-H.txt*************
+POTENTIAL RISKS: Tuberculosis, COVID-19, Cryptosporidium, Gonococcal Infections, Hepatitis E.
+POTENTIAL RISKS: COVID-19, Neisseria gonorrhoeae
+POTENTIAL RISKS: Hepatitis E
+Total tokens in the prompt according to GPT-3 tokenizer: 24669
+Total tokens in the prompt according to GPT-3 tokenizer: 16615
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6913-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, HIV, Cocaine-related overdoses, Opioid-related overdoses, Benzodiazepine-related overdoses
+POTENTIAL RISKS: SARS-CoV-2, Dengue Fever
+Total tokens in the prompt according to GPT-3 tokenizer: 22989
+Total tokens in the prompt according to GPT-3 tokenizer: 20619
+Total tokens in the prompt according to GPT-3 tokenizer: 778
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6914-H.txt*************
+POTENTIAL RISKS: Hepatitis C, HIV, SARS-CoV-2, Influenza A (H3N2) and Influenza A (H1N1) pdm09 Reassortant.
+POTENTIAL RISKS: SARS-CoV-2, Influenza A (H3N2) and Influenza A (H1N1) pdm09 reassortant virus.
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23030
+Total tokens in the prompt according to GPT-3 tokenizer: 22588
+Total tokens in the prompt according to GPT-3 tokenizer: 14208
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6915-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Measles
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2, Brucella abortus RB51
+Total tokens in the prompt according to GPT-3 tokenizer: 16871
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6916-H.txt*************
+POTENTIAL RISKS: Norovirus, Human Immunodeficiency Virus (HIV), COVID-19, Circulating vaccine-derived polioviruses (cVDPVs)
+Total tokens in the prompt according to GPT-3 tokenizer: 22000
+Total tokens in the prompt according to GPT-3 tokenizer: 2117
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6917-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Vibrio cholerae O1, Tetanus.
+FINAL ANSWER: Cholera
+Total tokens in the prompt according to GPT-3 tokenizer: 24437
+Total tokens in the prompt according to GPT-3 tokenizer: 14257
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6918-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, COVID-19, MERS-CoV, Influenza A/H7N9, Influenza A/H1N1pdm09
+POTENTIAL RISKS: SARS-CoV-2, Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 22473
+Total tokens in the prompt according to GPT-3 tokenizer: 21494
+Total tokens in the prompt according to GPT-3 tokenizer: 9909
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6919-H.txt*************
+POTENTIAL RISKS: HIV, Hepatitis C
+POTENTIAL RISKS: COVID-19, SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22646
+Total tokens in the prompt according to GPT-3 tokenizer: 7959
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6920-H.txt*************
+POTENTIAL RISKS: Norovirus, Salmonella Typhi, Poliovirus, COVID-19, Hepatitis A.
+POTENTIAL RISKS: SARS-CoV-2, Hepatitis A
+Total tokens in the prompt according to GPT-3 tokenizer: 20364
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6921-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Lymphatic Filariasis, Hepatitis B
+Total tokens in the prompt according to GPT-3 tokenizer: 23233
+Total tokens in the prompt according to GPT-3 tokenizer: 14044
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6922-H.txt*************
+POTENTIAL RISKS: Mumps, Congenital Syphilis, COVID-19
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22453
+Total tokens in the prompt according to GPT-3 tokenizer: 16625
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6923-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Fentanyl-related overdose outbreak, Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 22920
+Total tokens in the prompt according to GPT-3 tokenizer: 24726
+Total tokens in the prompt according to GPT-3 tokenizer: 3401
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6924-H.txt*************
+POTENTIAL RISKS: Rubella, Neisseria meningitidis, COVID-19
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22114
+Total tokens in the prompt according to GPT-3 tokenizer: 20856
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6925-H.txt*************
+POTENTIAL RISKS: Poliovirus, SARS-CoV-2, Shigella, Norovirus, Shiga toxin-producing Escherichia coli (STEC), Cryptosporidium.
+POTENTIAL RISKS: Poliovirus (WPV1 and cVDPV), SARS-CoV-2 (COVID-19), Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 20123
+Total tokens in the prompt according to GPT-3 tokenizer: 21583
+Total tokens in the prompt according to GPT-3 tokenizer: 7155
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6926-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Salmonella, Hepatitis A.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 23248
+Total tokens in the prompt according to GPT-3 tokenizer: 23726
+Total tokens in the prompt according to GPT-3 tokenizer: 6660
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6927-H.txt*************
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 20952
+Total tokens in the prompt according to GPT-3 tokenizer: 22974
+Total tokens in the prompt according to GPT-3 tokenizer: 14163
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6928-H.txt*************
+POTENTIAL RISKS: COVID-19, Poliovirus, Mumps
+POTENTIAL RISKS: SARS-CoV-2, Poliovirus
+POTENTIAL RISKS: SARS-CoV-2, COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 21779
+Total tokens in the prompt according to GPT-3 tokenizer: 17617
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6929-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Rabies
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22842
+Total tokens in the prompt according to GPT-3 tokenizer: 9617
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6930-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Hepatitis B
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22013
+Total tokens in the prompt according to GPT-3 tokenizer: 19858
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6931-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Enterovirus D68 (EV-D68), Enterovirus A71 (EV-A71)
+Total tokens in the prompt according to GPT-3 tokenizer: 22572
+Total tokens in the prompt according to GPT-3 tokenizer: 24075
+Total tokens in the prompt according to GPT-3 tokenizer: 22207
+Total tokens in the prompt according to GPT-3 tokenizer: 7902
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6932-H.txt*************
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: SARS-CoV-2, Methanol poisoning associated with ingestion of alcohol-based hand sanitizers containing methanol, 
+Multisystem Inflammatory Syndrome in Children (MIS-C)
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Multidrug-Resistant Tuberculosis (MDR TB)
+Total tokens in the prompt according to GPT-3 tokenizer: 22786
+Total tokens in the prompt according to GPT-3 tokenizer: 21512
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6933-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, COVID-19
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22995
+Total tokens in the prompt according to GPT-3 tokenizer: 21619
+Total tokens in the prompt according to GPT-3 tokenizer: 1919
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6934-H.txt*************
+POTENTIAL RISKS: Hepatitis B, Hepatitis C, COVID-19, SARS-CoV-2, Candida auris, Carbapenemase-Producing Organism, Poliovirus.
+POTENTIAL RISKS: SARS-CoV-2, Type 2 Circulating Vaccine-Derived Poliovirus (cVDPV2), Candida auris, Carbapenemase-Producing 
+Organisms (CPOs)
+POTENTIAL RISKS: COVID-19, vaccine-derived poliovirus.
+Total tokens in the prompt according to GPT-3 tokenizer: 22040
+Total tokens in the prompt according to GPT-3 tokenizer: 23107
+Total tokens in the prompt according to GPT-3 tokenizer: 8280
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6935-H.txt*************
+POTENTIAL RISKS: COVID-19, SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Hepatitis B
+Total tokens in the prompt according to GPT-3 tokenizer: 23422
+Total tokens in the prompt according to GPT-3 tokenizer: 23065
+Total tokens in the prompt according to GPT-3 tokenizer: 11677
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6936-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 21533
+Total tokens in the prompt according to GPT-3 tokenizer: 22510
+Total tokens in the prompt according to GPT-3 tokenizer: 22265
+Total tokens in the prompt according to GPT-3 tokenizer: 649
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6937-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Influenza
+POTENTIAL RISKS: COVID-19, Poliovirus
+FINAL ANSWER: There are no disease outbreaks mentioned in the text that pose a significant risk of becoming a larger outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 25509
+Total tokens in the prompt according to GPT-3 tokenizer: 22432
+Total tokens in the prompt according to GPT-3 tokenizer: 12738
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6938-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Invasive Fungal Diseases, Candidiasis, Coccidioidomycosis, Histoplasmosis, Blastomycosis, 
+Aspergillosis, Cryptococcus infection.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: COVID-19, Measles, Rabies
+Total tokens in the prompt according to GPT-3 tokenizer: 21840
+Total tokens in the prompt according to GPT-3 tokenizer: 21838
+Total tokens in the prompt according to GPT-3 tokenizer: 17946
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6939-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Influenza, Pertussis
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Botulism Type B
+Total tokens in the prompt according to GPT-3 tokenizer: 26362
+Total tokens in the prompt according to GPT-3 tokenizer: 22896
+Total tokens in the prompt according to GPT-3 tokenizer: 987
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6940-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Multisystem Inflammatory Syndrome in Adults (MIS-A)
+POTENTIAL RISKS: SARS-CoV-2, Poliovirus, Influenza
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 25166
+Total tokens in the prompt according to GPT-3 tokenizer: 17983
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6941-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22686
+Total tokens in the prompt according to GPT-3 tokenizer: 22724
+Total tokens in the prompt according to GPT-3 tokenizer: 13595
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6942-H.txt*************
+POTENTIAL RISKS: COVID-19, Coccidioidomycosis (Valley Fever)
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 20936
+Total tokens in the prompt according to GPT-3 tokenizer: 23676
+Total tokens in the prompt according to GPT-3 tokenizer: 21298
+Total tokens in the prompt according to GPT-3 tokenizer: 3012
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6943-H.txt*************
+POTENTIAL RISKS: COVID-19, Dracunculiasis (Guinea worm disease)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2, Coccidioidomycosis (Valley Fever)
+Total tokens in the prompt according to GPT-3 tokenizer: 22527
+Total tokens in the prompt according to GPT-3 tokenizer: 24316
+Total tokens in the prompt according to GPT-3 tokenizer: 14842
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6944-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22979
+Total tokens in the prompt according to GPT-3 tokenizer: 22211
+Total tokens in the prompt according to GPT-3 tokenizer: 12445
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6945-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 23223
+Total tokens in the prompt according to GPT-3 tokenizer: 23707
+Total tokens in the prompt according to GPT-3 tokenizer: 6023
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6946-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, COVID-19
+POTENTIAL RISKS: SARS-CoV-2, Poliomyelitis, COVID-19
+POTENTIAL RISKS: COVID-19, Poliovirus (WPV1 and cVDPV2)
+Total tokens in the prompt according to GPT-3 tokenizer: 21902
+Total tokens in the prompt according to GPT-3 tokenizer: 20700
+Total tokens in the prompt according to GPT-3 tokenizer: 6402
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6947-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23586
+Total tokens in the prompt according to GPT-3 tokenizer: 22169
+Total tokens in the prompt according to GPT-3 tokenizer: 3173
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6948-H.txt*************
+POTENTIAL RISKS: COVID-19, Coccidioidomycosis, HIV, Leptospirosis, Dengue Fever, Carbapenem-Resistant Acinetobacter baumannii.
+POTENTIAL RISKS: Coccidioidomycosis, Carbapenem-resistant Acinetobacter baumannii (CRAB), Leptospirosis
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 22022
+Total tokens in the prompt according to GPT-3 tokenizer: 20144
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6949-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2, Neisseria gonorrhoeae
+Total tokens in the prompt according to GPT-3 tokenizer: 23285
+Total tokens in the prompt according to GPT-3 tokenizer: 23242
+Total tokens in the prompt according to GPT-3 tokenizer: 23343
+Total tokens in the prompt according to GPT-3 tokenizer: 4135
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6950-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Cyanobacteria and algae blooms.
+POTENTIAL RISKS: SARS-CoV-2, Neisseria gonorrhoeae
+POTENTIAL RISKS: SARS-CoV-2, Neisseria gonorrhoeae.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22202
+Total tokens in the prompt according to GPT-3 tokenizer: 16394
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm695152-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Poliovirus
+POTENTIAL RISKS: COVID-19, Polio
+Total tokens in the prompt according to GPT-3 tokenizer: 5898
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm6953a1-H.txt*************
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21989
+Total tokens in the prompt according to GPT-3 tokenizer: 8776
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7001-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 21995
+Total tokens in the prompt according to GPT-3 tokenizer: 19144
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7002-H.txt*************
+POTENTIAL RISKS: COVID-19, Candida auris.
+POTENTIAL RISKS: COVID-19, Candida auris
+Total tokens in the prompt according to GPT-3 tokenizer: 24931
+Total tokens in the prompt according to GPT-3 tokenizer: 22549
+Total tokens in the prompt according to GPT-3 tokenizer: 7894
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7003-H.txt*************
+FINAL ANSWER:
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 1. 7 Lineage, SARS-CoV-2 B. 1. 351 Lineage, SARS-CoV-2 P. 1 Lineage
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 20919
+Total tokens in the prompt according to GPT-3 tokenizer: 18146
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7004-H.txt*************
+POTENTIAL RISKS: COVID-19, West Nile Virus
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22608
+Total tokens in the prompt according to GPT-3 tokenizer: 20894
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7005-H.txt*************
+POTENTIAL RISKS: COVID-19
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 21948
+Total tokens in the prompt according to GPT-3 tokenizer: 22641
+Total tokens in the prompt according to GPT-3 tokenizer: 3181
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7006-H.txt*************
+POTENTIAL RISKS: Synthetic opioids, psychostimulants, fentanyl, fentanyl analogs, methamphetamine, cocaine, heroin.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 23089
+Total tokens in the prompt according to GPT-3 tokenizer: 17869
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7007-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, HIV, Systemic Lupus Erythematosus (SLE)
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22930
+Total tokens in the prompt according to GPT-3 tokenizer: 17607
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7008-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Hepatitis A
+POTENTIAL RISKS: SARS-CoV-2 variants B.1.1.7 and B.1.351.
+Total tokens in the prompt according to GPT-3 tokenizer: 22986
+Total tokens in the prompt according to GPT-3 tokenizer: 21294
+Total tokens in the prompt according to GPT-3 tokenizer: 2921
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7009-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Giardia duodenalis
+POTENTIAL RISKS: SARS-CoV-2
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22578
+Total tokens in the prompt according to GPT-3 tokenizer: 15736
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7010-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 variants (B.1.1.7 and P.1)
+POTENTIAL RISKS: SARS-CoV-2, COVID-19 variants
+Total tokens in the prompt according to GPT-3 tokenizer: 23115
+Total tokens in the prompt according to GPT-3 tokenizer: 24483
+Total tokens in the prompt according to GPT-3 tokenizer: 4565
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7011-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 23606
+Total tokens in the prompt according to GPT-3 tokenizer: 21468
+Total tokens in the prompt according to GPT-3 tokenizer: 15276
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7012-H.txt*************
+POTENTIAL RISKS: Tuberculosis, Human Papillomavirus, HIV/AIDS, COVID-19
+POTENTIAL RISKS: SARS-CoV-2, Tuberculosis
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 23997
+Total tokens in the prompt according to GPT-3 tokenizer: 22242
+Total tokens in the prompt according to GPT-3 tokenizer: 10531
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7013-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 21879
+Total tokens in the prompt according to GPT-3 tokenizer: 16410
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7014-H.txt*************
+POTENTIAL RISKS: COVID-19, Psittacosis
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 22285
+Total tokens in the prompt according to GPT-3 tokenizer: 19857
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7015-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 20878
+Total tokens in the prompt according to GPT-3 tokenizer: 6124
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7016-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, COVID-19
+POTENTIAL RISKS: SARS-CoV-2, Escherichia coli O26
+Total tokens in the prompt according to GPT-3 tokenizer: 21520
+Total tokens in the prompt according to GPT-3 tokenizer: 20522
+Total tokens in the prompt according to GPT-3 tokenizer: 22926
+Total tokens in the prompt according to GPT-3 tokenizer: 1326
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7017-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Tick-borne diseases (including Lyme disease)
+POTENTIAL RISKS: SARS-CoV-2 variants (B.1.351 and R.1 lineage)
+POTENTIAL RISKS: SARS-CoV-2 variants, COVID-19.
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 23470
+Total tokens in the prompt according to GPT-3 tokenizer: 18366
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7018-H.txt*************
+POTENTIAL RISKS: COVID-19, Polio, Circulating Vaccine-Derived Poliovirus (cVDPV)
+POTENTIAL RISKS: COVID-19, E. coli O157:H7
+Total tokens in the prompt according to GPT-3 tokenizer: 22598
+Total tokens in the prompt according to GPT-3 tokenizer: 23160
+Total tokens in the prompt according to GPT-3 tokenizer: 4262
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7019-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Inflammatory Bowel Disease (IBD)
+POTENTIAL RISKS: SARS-CoV-2 variants (B.1.526, B.1.427, B.1.429, B.1.1.7)
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 21586
+Total tokens in the prompt according to GPT-3 tokenizer: 22704
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7020-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Cryptosporidium, Legionella
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 22797
+Total tokens in the prompt according to GPT-3 tokenizer: 13510
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7021-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 21168
+Total tokens in the prompt according to GPT-3 tokenizer: 15942
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7022-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, HIV
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23758
+Total tokens in the prompt according to GPT-3 tokenizer: 21384
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7023-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 variants (B.1.1.7 and P.1)
+POTENTIAL RISKS: SARS-CoV-2 variants
+Total tokens in the prompt according to GPT-3 tokenizer: 23581
+Total tokens in the prompt according to GPT-3 tokenizer: 19039
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7024-H.txt*************
+POTENTIAL RISKS: Hepatitis A, COVID-19
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23442
+Total tokens in the prompt according to GPT-3 tokenizer: 21404
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7025-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 22360
+Total tokens in the prompt according to GPT-3 tokenizer: 9910
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7026-H.txt*************
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 21582
+Total tokens in the prompt according to GPT-3 tokenizer: 7486
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7027-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Hepatitis B, COVID-19
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22499
+Total tokens in the prompt according to GPT-3 tokenizer: 5117
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7028-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 617. 2 (Delta) Variant
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 617. 2 (Delta) variant.
+Total tokens in the prompt according to GPT-3 tokenizer: 13225
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7029-H.txt*************
+POTENTIAL RISKS: COVID-19, Candida auris, Influenza, Respiratory Syncytial Virus (RSV)
+Total tokens in the prompt according to GPT-3 tokenizer: 21913
+Total tokens in the prompt according to GPT-3 tokenizer: 5141
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7030-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 14955
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7031-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant), Yersinia pestis (plague)
+Total tokens in the prompt according to GPT-3 tokenizer: 22442
+Total tokens in the prompt according to GPT-3 tokenizer: 21630
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7032-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 617. 2 (Delta) variant, West Nile virus, Powassan virus, Eastern equine encephalitis virus.
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant), Salmonella Typhimurium
+Total tokens in the prompt according to GPT-3 tokenizer: 19074
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7033-H.txt*************
+POTENTIAL RISKS: COVID-19, Salmonella Mbandaka
+Total tokens in the prompt according to GPT-3 tokenizer: 23939
+Total tokens in the prompt according to GPT-3 tokenizer: 22492
+Total tokens in the prompt according to GPT-3 tokenizer: 19176
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7034-H.txt*************
+POTENTIAL RISKS: Polio, COVID-19, Benzodiazepine and opioid co-use, Methamphetamine use.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), particularly the B.1.617.2 (Delta) variant.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), particularly the Delta variant.
+Total tokens in the prompt according to GPT-3 tokenizer: 22680
+Total tokens in the prompt according to GPT-3 tokenizer: 26905
+Total tokens in the prompt according to GPT-3 tokenizer: 21219
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7035-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), SARS-CoV-2 B.1.617.2 (Delta) Variant
+Total tokens in the prompt according to GPT-3 tokenizer: 22260
+Total tokens in the prompt according to GPT-3 tokenizer: 16448
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7036-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22327
+Total tokens in the prompt according to GPT-3 tokenizer: 23701
+Total tokens in the prompt according to GPT-3 tokenizer: 13811
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7037-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant), Xylazine-related overdose outbreak
+Total tokens in the prompt according to GPT-3 tokenizer: 23024
+Total tokens in the prompt according to GPT-3 tokenizer: 23068
+Total tokens in the prompt according to GPT-3 tokenizer: 13408
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7038-H.txt*************
+POTENTIAL RISKS: HIV
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Salmonella, Cyclospora, STEC (Shiga toxin-producing Escherichia coli)
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 22883
+Total tokens in the prompt according to GPT-3 tokenizer: 17140
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7039-H.txt*************
+POTENTIAL RISKS: COVID-19, Poliovirus (WPV1)
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23840
+Total tokens in the prompt according to GPT-3 tokenizer: 23785
+Total tokens in the prompt according to GPT-3 tokenizer: 15937
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7040-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, HIV
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 25272
+Total tokens in the prompt according to GPT-3 tokenizer: 16334
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7041-H.txt*************
+FINAL ANSWER: None
+POTENTIAL RISKS: Bacillus cereus group bacteria containing anthrax toxin genes.
+Total tokens in the prompt according to GPT-3 tokenizer: 24539
+Total tokens in the prompt according to GPT-3 tokenizer: 23407
+Total tokens in the prompt according to GPT-3 tokenizer: 2841
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7042-H.txt*************
+POTENTIAL RISKS: Mycobacterium porcinum, HIV, COVID-19
+POTENTIAL RISKS: SARS-CoV-2, HIV
+POTENTIAL RISKS: HIV, Hepatitis B, Hepatitis C
+Total tokens in the prompt according to GPT-3 tokenizer: 21130
+Total tokens in the prompt according to GPT-3 tokenizer: 21638
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7043-H.txt*************
+POTENTIAL RISKS: COVID-19, Lead Poisoning
+POTENTIAL RISKS: SARS-CoV-2 (Delta variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 21694
+Total tokens in the prompt according to GPT-3 tokenizer: 23095
+Total tokens in the prompt according to GPT-3 tokenizer: 2252
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7044-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Enterovirus D68 (EV-D68), Dracunculiasis (Guinea worm disease)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Influenza
+Total tokens in the prompt according to GPT-3 tokenizer: 21928
+Total tokens in the prompt according to GPT-3 tokenizer: 8182
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7045-H.txt*************
+POTENTIAL RISKS: Measles, COVID-19, Influenza
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Influenza
+Total tokens in the prompt according to GPT-3 tokenizer: 21913
+Total tokens in the prompt according to GPT-3 tokenizer: 17773
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7046-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23114
+Total tokens in the prompt according to GPT-3 tokenizer: 19746
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7047-H.txt*************
+POTENTIAL RISKS: Enterovirus D68 (EV-D68), HIV.
+POTENTIAL RISKS: COVID-19, SARS-CoV-2 (Delta variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 22684
+Total tokens in the prompt according to GPT-3 tokenizer: 19701
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7048-H.txt*************
+POTENTIAL RISKS: HIV
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 24575
+Total tokens in the prompt according to GPT-3 tokenizer: 14538
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7049-H.txt*************
+POTENTIAL RISKS: COVID-19, Circulating vaccine-derived poliovirus (cVDPV), SARS-CoV-2
+POTENTIAL RISKS: Influenza A (H3N2)
+Total tokens in the prompt according to GPT-3 tokenizer: 23011
+Total tokens in the prompt according to GPT-3 tokenizer: 18743
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7050-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant)
+POTENTIAL RISKS: Mucormycosis, COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23606
+Total tokens in the prompt according to GPT-3 tokenizer: 19368
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm705152-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Respiratory Syncytial Virus (RSV)
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant), Influenza
+Total tokens in the prompt according to GPT-3 tokenizer: 28819
+Total tokens in the prompt according to GPT-3 tokenizer: 21273
+Total tokens in the prompt according to GPT-3 tokenizer: 19978
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7102-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, HIV.
+POTENTIAL RISKS: SARS-CoV-2, HIV
+Total tokens in the prompt according to GPT-3 tokenizer: 21416
+Total tokens in the prompt according to GPT-3 tokenizer: 23157
+Total tokens in the prompt according to GPT-3 tokenizer: 2521
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7103-H.txt*************
+POTENTIAL RISKS: Poliomyelitis, Herpes Zoster, COVID-19, Zika virus.
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 1. 529 (Omicron) variant, Poliovirus (WPV1 and cVDPV2)
+POTENTIAL RISKS: Omicron variant of SARS-CoV-2.
+Total tokens in the prompt according to GPT-3 tokenizer: 23901
+Total tokens in the prompt according to GPT-3 tokenizer: 24120
+Total tokens in the prompt according to GPT-3 tokenizer: 23125
+Total tokens in the prompt according to GPT-3 tokenizer: 3972
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7104-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19) Delta and Omicron variants.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), specifically the Omicron variant.
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 24178
+Total tokens in the prompt according to GPT-3 tokenizer: 12040
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7105-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant), HIV
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), specifically the Omicron variant.
+Total tokens in the prompt according to GPT-3 tokenizer: 22832
+Total tokens in the prompt according to GPT-3 tokenizer: 22634
+Total tokens in the prompt according to GPT-3 tokenizer: 1083
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7106-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 Variants (Delta and Omicron)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19) Omicron variant, SARS-CoV-2 (COVID-19) Delta variant
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 21983
+Total tokens in the prompt according to GPT-3 tokenizer: 23263
+Total tokens in the prompt according to GPT-3 tokenizer: 22837
+Total tokens in the prompt according to GPT-3 tokenizer: 5803
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7107-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 B. 1. 1. 529 (Omicron) Variant, SARS-CoV-2 B. 1. 617. 2 (Delta) Variant
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), specifically the Omicron variant.
+POTENTIAL RISKS: COVID-19 (Omicron variant), SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), specifically the Delta and Omicron variants.
+Total tokens in the prompt according to GPT-3 tokenizer: 392
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7108-H.txt*************
+FINAL ANSWER: There is no text related to an infectious disease outbreak in the provided document.
+Total tokens in the prompt according to GPT-3 tokenizer: 23539
+Total tokens in the prompt according to GPT-3 tokenizer: 23319
+Total tokens in the prompt according to GPT-3 tokenizer: 5840
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7109-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant), HIV, COVID-19
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant)
+POTENTIAL RISKS: COVID-19, Seoul Hantavirus, Poliovirus (specifically, vaccine-derived poliovirus type 2)
+Total tokens in the prompt according to GPT-3 tokenizer: 22284
+Total tokens in the prompt according to GPT-3 tokenizer: 13855
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7110-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2), SARS-CoV-2, Dengue Virus, Chagas Disease
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Varicella-zoster virus (Varicella)
+Total tokens in the prompt according to GPT-3 tokenizer: 23787
+Total tokens in the prompt according to GPT-3 tokenizer: 22856
+Total tokens in the prompt according to GPT-3 tokenizer: 15640
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7111-H.txt*************
+POTENTIAL RISKS: Tetanus, COVID-19
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), specifically the Omicron variant.
+Total tokens in the prompt according to GPT-3 tokenizer: 23666
+Total tokens in the prompt according to GPT-3 tokenizer: 23122
+Total tokens in the prompt according to GPT-3 tokenizer: 1988
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7112-H.txt*************
+POTENTIAL RISKS: Tuberculosis, COVID-19
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19) Omicron variant.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Chagas disease
+Total tokens in the prompt according to GPT-3 tokenizer: 22037
+Total tokens in the prompt according to GPT-3 tokenizer: 17819
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7113-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Hepatitis B.
+POTENTIAL RISKS: COVID-19, Xylazine-related overdose deaths
+Total tokens in the prompt according to GPT-3 tokenizer: 22746
+Total tokens in the prompt according to GPT-3 tokenizer: 5483
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7114-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Monkeypox virus.
+POTENTIAL RISKS: SARS-CoV-2 (Omicron variant), Enteropathogenic Escherichia coli (EPEC)
+Total tokens in the prompt according to GPT-3 tokenizer: 22686
+Total tokens in the prompt according to GPT-3 tokenizer: 12826
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7115-H.txt*************
+POTENTIAL RISKS: Polio, COVID-19, Rabies
+POTENTIAL RISKS: SARS-CoV-2, Botulism
+Total tokens in the prompt according to GPT-3 tokenizer: 21800
+Total tokens in the prompt according to GPT-3 tokenizer: 7396
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7116-H.txt*************
+POTENTIAL RISKS: COVID-19 (Omicron variant), Aconitum alkaloid poisoning.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Influenza
+Total tokens in the prompt according to GPT-3 tokenizer: 23357
+Total tokens in the prompt according to GPT-3 tokenizer: 11535
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7117-H.txt*************
+POTENTIAL RISKS: COVID-19, Measles
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 21490
+Total tokens in the prompt according to GPT-3 tokenizer: 14426
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7118-H.txt*************
+POTENTIAL RISKS: West Nile virus, Eastern equine encephalitis virus, Powassan virus, La Crosse virus, St. Louis encephalitis 
+virus, Jamestown Canyon virus, Rabies virus.
+POTENTIAL RISKS: Adenovirus type 41, SARS-CoV-2 (Omicron variant)
+Total tokens in the prompt according to GPT-3 tokenizer: 23798
+Total tokens in the prompt according to GPT-3 tokenizer: 9595
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7119-H.txt*************
+POTENTIAL RISKS: Polio, Wild Poliovirus Type 1 (WPV1), Circulating Vaccine-Derived Polioviruses (cVDPVs)
+POTENTIAL RISKS: COVID-19, Illicitly manufactured fentanyls-related overdose, Gabapentin-related overdose.
+Total tokens in the prompt according to GPT-3 tokenizer: 23674
+Total tokens in the prompt according to GPT-3 tokenizer: 5177
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7120-H.txt*************
+POTENTIAL RISKS: Rabies, HIV
+POTENTIAL RISKS: Rabies, Escherichia coli O157:H7
+Total tokens in the prompt according to GPT-3 tokenizer: 22502
+Total tokens in the prompt according to GPT-3 tokenizer: 6636
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7121-H.txt*************
+POTENTIAL RISKS: Listeria monocytogenes, SARS-CoV-2
+POTENTIAL RISKS: SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 21681
+Total tokens in the prompt according to GPT-3 tokenizer: 5002
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7122-H.txt*************
+POTENTIAL RISKS: Orthopoxviruses (including Monkeypox virus, Variola virus, and Vaccinia virus), COVID-19.
+POTENTIAL RISKS: Influenza A (H3N2)
+Total tokens in the prompt according to GPT-3 tokenizer: 24044
+Total tokens in the prompt according to GPT-3 tokenizer: 17394
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7123-H.txt*************
+POTENTIAL RISKS: Monkeypox
+POTENTIAL RISKS: Monkeypox virus, Poliovirus (WPV1)
+Total tokens in the prompt according to GPT-3 tokenizer: 21612
+Total tokens in the prompt according to GPT-3 tokenizer: 9445
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7124-H.txt*************
+POTENTIAL RISKS: Adenovirus type 41, COVID-19, Circulating vaccine-derived polioviruses (cVDPVs), Hepatitis of unspecified 
+etiology.
+POTENTIAL RISKS: Adenovirus, Yersinia pestis (plague)
+Total tokens in the prompt according to GPT-3 tokenizer: 23158
+Total tokens in the prompt according to GPT-3 tokenizer: 8487
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7125-H.txt*************
+POTENTIAL RISKS: COVID-19, HIV
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22322
+Total tokens in the prompt according to GPT-3 tokenizer: 22104
+Total tokens in the prompt according to GPT-3 tokenizer: 367
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7126-H.txt*************
+POTENTIAL RISKS: Adenovirus, Acute Hepatitis of Unknown Etiology
+POTENTIAL RISKS: Hepatitis of unknown etiology, SARS-CoV-2 (COVID-19)
+FINAL ANSWER: 
+
+There is no information in the provided text related to an infectious disease outbreak.
+Total tokens in the prompt according to GPT-3 tokenizer: 20417
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7127-H.txt*************
+POTENTIAL RISKS: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23479
+Total tokens in the prompt according to GPT-3 tokenizer: 8096
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7128-H.txt*************
+POTENTIAL RISKS: Monkeypox, COVID-19, HIV, Toxoplasmosis
+POTENTIAL RISKS: Monkeypox, Salmonella Enteritidis
+Total tokens in the prompt according to GPT-3 tokenizer: 23808
+Total tokens in the prompt according to GPT-3 tokenizer: 26320
+Total tokens in the prompt according to GPT-3 tokenizer: 10639
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7129-H.txt*************
+POTENTIAL RISKS: Influenza A (H5N1), COVID-19, Influenza A (H3N2)
+POTENTIAL RISKS: COVID-19, SARS-CoV-2 Omicron BA. 1 and BA. 2/BA. 2. 12. 1 sublineages
+POTENTIAL RISKS: Fentanyl-related overdose, Cocaine-related overdose, Polysubstance use-related overdose, Opioid-related overdose.
+Total tokens in the prompt according to GPT-3 tokenizer: 23565
+Total tokens in the prompt according to GPT-3 tokenizer: 11062
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7130-H.txt*************
+POTENTIAL RISKS: Hepatitis B, COVID-19
+POTENTIAL RISKS: Parechovirus, COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22470
+Total tokens in the prompt according to GPT-3 tokenizer: 7882
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7131-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Shigella, Norovirus.
+POTENTIAL RISKS: SARS-CoV-2, Streptococcus spp.
+Total tokens in the prompt according to GPT-3 tokenizer: 21448
+Total tokens in the prompt according to GPT-3 tokenizer: 16542
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7132-H.txt*************
+POTENTIAL RISKS: Monkeypox, COVID-19, Hepatitis C
+POTENTIAL RISKS: Monkeypox
+Total tokens in the prompt according to GPT-3 tokenizer: 21573
+Total tokens in the prompt according to GPT-3 tokenizer: 21102
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7133-H.txt*************
+POTENTIAL RISKS: COVID-19, Measles
+POTENTIAL RISKS: Poliovirus, COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22865
+Total tokens in the prompt according to GPT-3 tokenizer: 7336
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7134-H.txt*************
+POTENTIAL RISKS: COVID-19, Monkeypox, Coccidioidomycosis, Rabies
+POTENTIAL RISKS: Monkeypox, Coccidioidomycosis (Valley fever)
+Total tokens in the prompt according to GPT-3 tokenizer: 23072
+Total tokens in the prompt according to GPT-3 tokenizer: 22171
+Total tokens in the prompt according to GPT-3 tokenizer: 4081
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7135-H.txt*************
+POTENTIAL RISKS: Monkeypox virus, SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: Monkeypox virus (MPXV)
+POTENTIAL RISKS: Monkeypox virus (MPXV)
+Total tokens in the prompt according to GPT-3 tokenizer: 21491
+Total tokens in the prompt according to GPT-3 tokenizer: 3414
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7136-H.txt*************
+POTENTIAL RISKS: Monkeypox virus, Poliovirus, SARS-CoV-2 (Omicron variant)
+POTENTIAL RISKS: Monkeypox
+Total tokens in the prompt according to GPT-3 tokenizer: 23809
+Total tokens in the prompt according to GPT-3 tokenizer: 24411
+Total tokens in the prompt according to GPT-3 tokenizer: 6889
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7137-H.txt*************
+POTENTIAL RISKS: Streptococcus species, SARS-CoV-2, COVID-19, Invasive pneumococcal disease (IPD), Pneumococcal disease.
+POTENTIAL RISKS: Monkeypox virus, SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: Monkeypox, Nitazenes-related overdose outbreak, Orthopoxvirus.
+Total tokens in the prompt according to GPT-3 tokenizer: 20956
+Total tokens in the prompt according to GPT-3 tokenizer: 6782
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7138-H.txt*************
+POTENTIAL RISKS: Monkeypox, Norovirus, HIV
+POTENTIAL RISKS: Monkeypox, Norovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 21691
+Total tokens in the prompt according to GPT-3 tokenizer: 4279
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7139-H.txt*************
+POTENTIAL RISKS: Hepatitis A, COVID-19, Para-fluorofentanyl-related overdose deaths.
+FINAL ANSWER: Listeria monocytogenes
+Total tokens in the prompt according to GPT-3 tokenizer: 22855
+Total tokens in the prompt according to GPT-3 tokenizer: 21421
+Total tokens in the prompt according to GPT-3 tokenizer: 2968
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7140-H.txt*************
+POTENTIAL RISKS: Enterovirus D68, Monkeypox, Rhinoviruses, SARS-CoV-2, Salmonella, Campylobacter, Cyclospora, Listeria, Shiga 
+toxin-producing Escherichia coli (STEC), Shigella, Vibrio, Yersinia.
+POTENTIAL RISKS: Monkeypox virus (MPXV)
+FINAL ANSWER: Brodifacoum poisoning
+Total tokens in the prompt according to GPT-3 tokenizer: 22804
+Total tokens in the prompt according to GPT-3 tokenizer: 3038
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7141-H.txt*************
+POTENTIAL RISKS: HIV, COVID-19
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23710
+Total tokens in the prompt according to GPT-3 tokenizer: 25401
+Total tokens in the prompt according to GPT-3 tokenizer: 8828
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7142-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 Omicron variant (BA. 4/BA. 5), Poliovirus (WPV1), Monkeypox
+POTENTIAL RISKS: Monkeypox, SARS-CoV-2 (COVID-19)
+POTENTIAL RISKS: Monkeypox
+Total tokens in the prompt according to GPT-3 tokenizer: 23224
+Total tokens in the prompt according to GPT-3 tokenizer: 23804
+Total tokens in the prompt according to GPT-3 tokenizer: 1775
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7143-H.txt*************
+POTENTIAL RISKS: Influenza A (H3N2), COVID-19, Monkeypox
+POTENTIAL RISKS: Monkeypox, COVID-19
+POTENTIAL RISKS: Covid-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23109
+Total tokens in the prompt according to GPT-3 tokenizer: 22329
+Total tokens in the prompt according to GPT-3 tokenizer: 5755
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7144-H.txt*************
+POTENTIAL RISKS: COVID-19, Monkeypox, Poliovirus.
+POTENTIAL RISKS: Monkeypox, Poliovirus Type 2
+POTENTIAL RISKS: Poliovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 23032
+Total tokens in the prompt according to GPT-3 tokenizer: 18931
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7145-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Monkeypox, Ebola Virus Disease (Sudan ebolavirus)
+POTENTIAL RISKS: COVID-19, Monkeypox, Ebola virus disease caused by Sudan ebolavirus.
+Total tokens in the prompt according to GPT-3 tokenizer: 22174
+Total tokens in the prompt according to GPT-3 tokenizer: 5327
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7146-H.txt*************
+POTENTIAL RISKS: COVID-19, Measles, Mumps
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 18023
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7147-H.txt*************
+POTENTIAL RISKS: Measles, Dracunculiasis (Guinea worm disease)
+Total tokens in the prompt according to GPT-3 tokenizer: 22999
+Total tokens in the prompt according to GPT-3 tokenizer: 23892
+Total tokens in the prompt according to GPT-3 tokenizer: 3383
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7148-H.txt*************
+POTENTIAL RISKS: Burkholderia stabilis, Salmonella.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Burkholderia cepacia.
+POTENTIAL RISKS: COVID-19, Monkeypox
+Total tokens in the prompt according to GPT-3 tokenizer: 22429
+Total tokens in the prompt according to GPT-3 tokenizer: 11003
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7149-H.txt*************
+POTENTIAL RISKS: Mpox, Poliomyelitis, Rabies
+POTENTIAL RISKS: Monkeypox (mpox)
+Total tokens in the prompt according to GPT-3 tokenizer: 23501
+Total tokens in the prompt according to GPT-3 tokenizer: 17608
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7150-H.txt*************
+POTENTIAL RISKS: COVID-19, Illicitly Manufactured Fentanyls (IMFs), Measles, Rubella
+POTENTIAL RISKS: SARS-CoV-2, Influenza, Burkholderia pseudomallei
+Total tokens in the prompt according to GPT-3 tokenizer: 24422
+Total tokens in the prompt according to GPT-3 tokenizer: 22447
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm715152-H.txt*************
+POTENTIAL RISKS: Mpox (Monkeypox), COVID-19 (SARS-CoV-2)
+POTENTIAL RISKS: Mpox (Monkeypox), SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 18617
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7153-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 21385
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7201-H.txt*************
+POTENTIAL RISKS: Mpox (Monkeypox virus), COVID-19 (SARS-CoV-2)
+Total tokens in the prompt according to GPT-3 tokenizer: 22564
+Total tokens in the prompt according to GPT-3 tokenizer: 10910
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7202-H.txt*************
+POTENTIAL RISKS: Cholera
+POTENTIAL RISKS: SARS-CoV-2, Poliovirus, Measles
+Total tokens in the prompt according to GPT-3 tokenizer: 20762
+Total tokens in the prompt according to GPT-3 tokenizer: 17397
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7203-H.txt*************
+POTENTIAL RISKS: Influenza, Syphilis
+POTENTIAL RISKS: Mpox (Monkeypox), Congenital Syphilis
+Total tokens in the prompt according to GPT-3 tokenizer: 22339
+Total tokens in the prompt according to GPT-3 tokenizer: 7655
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7204-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), HIV.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22825
+Total tokens in the prompt according to GPT-3 tokenizer: 2987
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7205-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 Omicron sublineages (BQ.1, BQ.1.1, XBB, and XBB.1.5)
+POTENTIAL RISKS: SARS-CoV-2 (Omicron sublineages)
+Total tokens in the prompt according to GPT-3 tokenizer: 22707
+Total tokens in the prompt according to GPT-3 tokenizer: 14128
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7206-H.txt*************
+POTENTIAL RISKS: COVID-19, Staphylococcus aureus.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 22866
+Total tokens in the prompt according to GPT-3 tokenizer: 26507
+Total tokens in the prompt according to GPT-3 tokenizer: 9731
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7207-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Salmonella enterica serovar Typhi (S. Typhi)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 18990
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7208-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 variants (XBB.1.5 and BQ.1)
+Total tokens in the prompt according to GPT-3 tokenizer: 21335
+Total tokens in the prompt according to GPT-3 tokenizer: 12391
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7209-H.txt*************
+POTENTIAL RISKS: Mpox, Cronobacter sakazakii
+POTENTIAL RISKS: Monkeypox virus (MPXV), Orthopoxvirus (OPXV)
+Total tokens in the prompt according to GPT-3 tokenizer: 25967
+Total tokens in the prompt according to GPT-3 tokenizer: 8541
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7210-H.txt*************
+POTENTIAL RISKS: HIV
+POTENTIAL RISKS: Invasive Group A Streptococcus (iGAS), HIV.
+Total tokens in the prompt according to GPT-3 tokenizer: 23315
+Total tokens in the prompt according to GPT-3 tokenizer: 4021
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7211-H.txt*************
+POTENTIAL RISKS: Dengue virus, Babesia microti.
+POTENTIAL RISKS: Dengue Virus, COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 21468
+Total tokens in the prompt according to GPT-3 tokenizer: 14981
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7212-H.txt*************
+POTENTIAL RISKS: Tuberculosis
+FINAL ANSWER: HIV/AIDS, Tuberculosis
+Total tokens in the prompt according to GPT-3 tokenizer: 21655
+Total tokens in the prompt according to GPT-3 tokenizer: 7499
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7213-H.txt*************
+POTENTIAL RISKS: Mpox (Monkeypox)
+POTENTIAL RISKS: Monkeypox, Blastomycosis
+Total tokens in the prompt according to GPT-3 tokenizer: 22826
+Total tokens in the prompt according to GPT-3 tokenizer: 6731
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7214-H.txt*************
+POTENTIAL RISKS: Hepatitis A, Poliovirus, Respiratory Syncytial Virus (RSV)
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 23413
+Total tokens in the prompt according to GPT-3 tokenizer: 18996
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7215-H.txt*************
+POTENTIAL RISKS: Mpox, Poliovirus, Haemophilus influenzae
+POTENTIAL RISKS: Mpox
+Total tokens in the prompt according to GPT-3 tokenizer: 24101
+Total tokens in the prompt according to GPT-3 tokenizer: 25573
+Total tokens in the prompt according to GPT-3 tokenizer: 11766
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7216-H.txt*************
+POTENTIAL RISKS: COVID-19
+POTENTIAL RISKS: COVID-19
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 22423
+Total tokens in the prompt according to GPT-3 tokenizer: 4787
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7217-H.txt*************
+POTENTIAL RISKS: West Nile Virus, Shiga Toxin-Producing Escherichia coli O157:H7, COVID-19, Xylazine (in combination with 
+fentanyl)
+POTENTIAL RISKS: STEC O157:H7, Monkeypox virus (Mpox)
+Total tokens in the prompt according to GPT-3 tokenizer: 23411
+Total tokens in the prompt according to GPT-3 tokenizer: 10910
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7218-H.txt*************
+POTENTIAL RISKS: Salmonella, COVID-19
+POTENTIAL RISKS: COVID-19, Vibrio vulnificus
+Total tokens in the prompt according to GPT-3 tokenizer: 23504
+Total tokens in the prompt according to GPT-3 tokenizer: 21761
+Total tokens in the prompt according to GPT-3 tokenizer: 2850
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7219-H.txt*************
+POTENTIAL RISKS: Poliomyelitis, COVID-19, Salmonella Thompson.
+POTENTIAL RISKS: Trichophyton indotineae, SARS-CoV-2 variants
+POTENTIAL RISKS: Trichophyton indotineae (T. indotineae)
+Total tokens in the prompt according to GPT-3 tokenizer: 24320
+Total tokens in the prompt according to GPT-3 tokenizer: 15799
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7220-H.txt*************
+POTENTIAL RISKS: Mpox
+POTENTIAL RISKS: Mpox (Monkeypox)
+Total tokens in the prompt according to GPT-3 tokenizer: 23440
+Total tokens in the prompt according to GPT-3 tokenizer: 13730
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7221-H.txt*************
+POTENTIAL RISKS: Mpox (Monkeypox), COVID-19
+POTENTIAL RISKS: Salmonella, SARS-CoV-2
+Total tokens in the prompt according to GPT-3 tokenizer: 21644
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7222-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Streptococcus species, Hepatitis C virus, Influenza
+Total tokens in the prompt according to GPT-3 tokenizer: 23200
+Total tokens in the prompt according to GPT-3 tokenizer: 14214
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7223-H.txt*************
+POTENTIAL RISKS: Mpox, Poliovirus, COVID-19
+POTENTIAL RISKS: Mpox, Chikungunya, Rift Valley Fever
+Total tokens in the prompt according to GPT-3 tokenizer: 23216
+Total tokens in the prompt according to GPT-3 tokenizer: 11651
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7224-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 variants (Omicron lineages), Meningococcal disease, Tetanus.
+POTENTIAL RISKS: Meningococcal disease, SARS-CoV-2 (COVID-19), Tetanus.
+Total tokens in the prompt according to GPT-3 tokenizer: 22831
+Total tokens in the prompt according to GPT-3 tokenizer: 13071
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7225-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Rubella
+POTENTIAL RISKS: Mpox (Monkeypox)
+Total tokens in the prompt according to GPT-3 tokenizer: 26571
+Total tokens in the prompt according to GPT-3 tokenizer: 22678
+Total tokens in the prompt according to GPT-3 tokenizer: 6918
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7226-H.txt*************
+POTENTIAL RISKS: Campylobacter, Salmonella, Shiga toxin-producing Escherichia coli (STEC), Yersinia, Vibrio, Cyclospora, Hepatitis
+C, COVID-19, Escherichia coli O157:H7, Cryptosporidiosis.
+POTENTIAL RISKS: Hepatitis C, Xylazine, Fentanyl, COVID-19
+POTENTIAL RISKS: Escherichia coli O157:H7, Cryptosporidium parvum.
+Total tokens in the prompt according to GPT-3 tokenizer: 21518
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7227-H.txt*************
+POTENTIAL RISKS: Cyclospora cayetanensis, Orientia spp.
+Total tokens in the prompt according to GPT-3 tokenizer: 24138
+Total tokens in the prompt according to GPT-3 tokenizer: 606
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7228-H.txt*************
+POTENTIAL RISKS: Hepatitis C, SARS-CoV-2, Influenza, Respiratory Syncytial Virus (RSV)
+FINAL ANSWER: There are no disease outbreaks mentioned in the text.
+Total tokens in the prompt according to GPT-3 tokenizer: 22729
+Total tokens in the prompt according to GPT-3 tokenizer: 21636
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7229-H.txt*************
+POTENTIAL RISKS: Hepatitis B, Arthritis-related diseases (e.g. Juvenile Idiopathic Arthritis)
+POTENTIAL RISKS: Respiratory Syncytial Virus (RSV), Shiga toxin-producing Escherichia coli (STEC) O157:H7
+Total tokens in the prompt according to GPT-3 tokenizer: 22168
+Total tokens in the prompt according to GPT-3 tokenizer: 9794
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7230-H.txt*************
+POTENTIAL RISKS: Mpox, Dengue, Alpha-gal Syndrome
+POTENTIAL RISKS: Norovirus, Mpox
+Total tokens in the prompt according to GPT-3 tokenizer: 17766
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7231-H.txt*************
+POTENTIAL RISKS: Fleaborne Typhus, Measles, Mpox
+Total tokens in the prompt according to GPT-3 tokenizer: 22508
+Total tokens in the prompt according to GPT-3 tokenizer: 9052
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7232-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19), Salmonella Typhimurium.
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 23011
+Total tokens in the prompt according to GPT-3 tokenizer: 3865
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7233-H.txt*************
+POTENTIAL RISKS: Mpox, Poliovirus, COVID-19
+POTENTIAL RISKS: Norovirus, Mpox (Monkeypox)
+Total tokens in the prompt according to GPT-3 tokenizer: 23216
+Total tokens in the prompt according to GPT-3 tokenizer: 22781
+Total tokens in the prompt according to GPT-3 tokenizer: 3553
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7234-H.txt*************
+POTENTIAL RISKS: West Nile virus, Arboviruses (including La Crosse, Jamestown Canyon, Powassan, St. Louis encephalitis, and 
+eastern equine encephalitis viruses)
+POTENTIAL RISKS: Respiratory Syncytial Virus (RSV), Wildfire smoke-related asthma exacerbations
+FINAL ANSWER: None
+Total tokens in the prompt according to GPT-3 tokenizer: 23780
+Total tokens in the prompt according to GPT-3 tokenizer: 21013
+Total tokens in the prompt according to GPT-3 tokenizer: 3853
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7235-H.txt*************
+POTENTIAL RISKS: Mpox, Counterfeit pills with Illicitly Manufactured Fentanyls (IMFs)
+POTENTIAL RISKS: Multidrug-Resistant Tuberculosis, Fentanyl-Contaminated Counterfeit Pills
+POTENTIAL RISKS: Norovirus
+Total tokens in the prompt according to GPT-3 tokenizer: 21808
+Total tokens in the prompt according to GPT-3 tokenizer: 9399
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7236-H.txt*************
+POTENTIAL RISKS: Malaria, Mpox (Monkeypox virus), Measles
+POTENTIAL RISKS: Mpox (Monkeypox virus), Norovirus.
+Total tokens in the prompt according to GPT-3 tokenizer: 20972
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7237-H.txt*************
+POTENTIAL RISKS: Influenza A (H1N1) pdm09, Legionnaires disease
+Total tokens in the prompt according to GPT-3 tokenizer: 24935
+Total tokens in the prompt according to GPT-3 tokenizer: 7118
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7238-H.txt*************
+POTENTIAL RISKS: Poliovirus, Wild Poliovirus Type 1 (WPV1)
+POTENTIAL RISKS: Poliovirus (specifically, circulating vaccine-derived poliovirus type 2, or cVDPV2)
+Total tokens in the prompt according to GPT-3 tokenizer: 22210
+Total tokens in the prompt according to GPT-3 tokenizer: 17468
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7239-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23514
+Total tokens in the prompt according to GPT-3 tokenizer: 10360
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7240-H.txt*************
+POTENTIAL RISKS: Respiratory Syncytial Virus (RSV), COVID-19, Influenza
+POTENTIAL RISKS: SARS-CoV-2 (COVID-19)
+Total tokens in the prompt according to GPT-3 tokenizer: 22980
+Total tokens in the prompt according to GPT-3 tokenizer: 10177
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7241-H.txt*************
+POTENTIAL RISKS: Influenza, Respiratory Syncytial Virus (RSV)
+POTENTIAL RISKS: Malaria, Respiratory Syncytial Virus (RSV)
+Total tokens in the prompt according to GPT-3 tokenizer: 21288
+Total tokens in the prompt according to GPT-3 tokenizer: 10069
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7242-H.txt*************
+POTENTIAL RISKS: COVID-19, Hepatitis A, Measles, Rubella
+POTENTIAL RISKS: Bartonella quintana, Mycobacterium abscessus
+Total tokens in the prompt according to GPT-3 tokenizer: 19354
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7243-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2 Variant BA. 2. 86
+Total tokens in the prompt according to GPT-3 tokenizer: 24823
+Total tokens in the prompt according to GPT-3 tokenizer: 24265
+Total tokens in the prompt according to GPT-3 tokenizer: 8192
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7244-H.txt*************
+FINAL ANSWER: Tuberculosis
+FINAL ANSWER: None
+FINAL ANSWER: COVID-19
+Total tokens in the prompt according to GPT-3 tokenizer: 23032
+Total tokens in the prompt according to GPT-3 tokenizer: 22268
+Total tokens in the prompt according to GPT-3 tokenizer: 8150
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7245-H.txt*************
+FINAL ANSWER:
+POTENTIAL RISKS: Dracunculiasis, Multidrug-Resistant Salmonella Newport.
+FINAL ANSWER:
+Total tokens in the prompt according to GPT-3 tokenizer: 23442
+Total tokens in the prompt according to GPT-3 tokenizer: 15922
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7246-H.txt*************
+POTENTIAL RISKS: Measles
+POTENTIAL RISKS: COVID-19, Measles, Syphilis, Invasive Pneumococcal Disease, Mpox
+Total tokens in the prompt according to GPT-3 tokenizer: 13710
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7247-H.txt*************
+POTENTIAL RISKS: Syphilis, Poliovirus (specifically, circulating vaccine-derived poliovirus type 2, or cVDPV2)
+Total tokens in the prompt according to GPT-3 tokenizer: 22975
+Total tokens in the prompt according to GPT-3 tokenizer: 4515
+*************/Users/chia/Documents/ANL/ARC/chia/reports/txts/mm7248-H.txt*************
+POTENTIAL RISKS: SARS-CoV-2, Firearm Suicide is not an infectious disease but a trend, no other diseases mentioned in the text 
+constitute a significant risk of an outbreak.
+POTENTIAL RISKS: SARS-CoV-2, Influenza, Respiratory Syncytial Virus (RSV), Enterovirus D68 (EV-D68)

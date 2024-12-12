@@ -1,17 +1,12 @@
 #!/usr/bin/env pythonA
 import pdb
 import argparse
-import json
+import os, json
 import numpy as np
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import textwrap
-import sys, os
-
-# Add the project directory to the sys.path
-project_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../argo'))
-sys.path.append(project_path)
-from ARGO import ArgoWrapper, ArgoEmbeddingWrapper
-from CustomLLM import ARGO_LLM, ARGO_EMBEDDING
+from argo.ARGO import ArgoWrapper, ArgoEmbeddingWrapper
+from argo.CustomLLM import ARGO_LLM, ARGO_EMBEDDING
 
 import re, ast
 from rich import print
