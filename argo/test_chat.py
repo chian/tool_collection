@@ -3,7 +3,7 @@ from argo.ArgoLLM import ArgoChatInterface, ModelType
 
 def test_chat_history():
     # Initialize the chat interface
-    chat = ArgoChatInterface(model_type=ModelType.GPT4)
+    chat = ArgoChatInterface(model_type=ModelType.O3-MINI)
     
     # First message to establish context
     print("USER: My name is Alex and I'm a data scientist.")
