@@ -1,3 +1,13 @@
 *openai*
 *~
 .DS_Store
+# Python cache
+__pycache__/
+*.pyc
+
+# API keys
+anthropic_key
+semantic_scholar_key
+
+# Local servers
+llama3.1_server
