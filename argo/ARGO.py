@@ -8,6 +8,7 @@ import json
 
 MODEL_GPT35 = "gpt35"
 MODEL_GPT4 = "gpt4"
+MODEL_O3MINI = "gpto3mini"
 
 class ArgoWrapper:
     default_url = "https://apps-dev.inside.anl.gov/argoapi/api/v1/resource/chat/"
@@ -16,8 +17,8 @@ class ArgoWrapper:
                  url = None, 
                  model = MODEL_GPT35, 
                  system = "",
-                 temperature = 0.8, 
-                 top_p=0.7, 
+                 #temperature = 0.8, 
+                 #top_p=0.7,
                  user = os.getenv("USER"))-> None:
         self.url = url
         if self.url is None:
@@ -38,8 +39,8 @@ class ArgoWrapper:
                 "system": self.system,
                 "prompt": [prompt],
                 "stop": [],
-                "temperature": self.temperature,
-                "top_p": self.top_p
+                #"temperature": self.temperature,
+                #"top_p": self.top_p
         }
             
         data_json = json.dumps(data)    

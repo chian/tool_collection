@@ -20,7 +20,9 @@ from enum import Enum
 class ModelType(Enum):
     GPT35 = 'gpt35'
     GPT4 = 'gpt4'
-
+    O3_MINI = 'gpto3mini'
+    O1_MINI = 'gpto1mini'
+    
 class ArgoLLM(LLM):
 
     model_type: ModelType = ModelType.GPT35
