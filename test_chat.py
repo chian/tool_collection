@@ -1,6 +1,16 @@
 # test_argo_chat.py
 from argo.ArgoLLM import ArgoChatInterface, ModelType
 
+'''
+SUPPORTED MODEL TYPES:
+    ModelType.O3_MINI
+    ModelType.O1_MINI
+    ModelType.GPT35
+    ModelType.GPT4
+
+Can be changed below when instantiating the chat client.
+'''
+
 def test_chat_history():
     # Initialize the chat interface
     chat = ArgoChatInterface(model_type=ModelType.O1_MINI)
